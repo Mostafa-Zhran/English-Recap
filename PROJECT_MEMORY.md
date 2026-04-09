@@ -16,10 +16,12 @@ d:\project\
 ├── index.html          # Home page with chapter listing
 ├── chapter.html        # Individual chapter detail page
 ├── css/
-│   └── style.css       # Complete design system (1080 lines)
+│   └── style.css       # Complete design system (1260+ lines)
 ├── js/
-│   ├── app.js          # Home page logic (243 lines)
+│   ├── app.js          # Home page logic (320+ lines)
 │   └── chapter.js      # Chapter page logic (591 lines)
+├── icons/
+│   └── Endlish-Recap.png # Custom logo icon
 └── data/
     ├── chapters.json   # 6 chapters with full content
     └── config.json     # Playlist URLs per level
