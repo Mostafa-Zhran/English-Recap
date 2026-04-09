@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "title": "At the Airport",
+    "level": "B1",
+    "icon": "✈️",
+    "color": "#0A66C2",
+    "description": "Learn essential vocabulary and phrases for navigating airports confidently.",
+    "summary": {
+      "vocabulary": ["boarding pass", "departure gate", "arrivals hall", "customs declaration", "carry-on luggage", "check-in counter", "security checkpoint", "overhead compartment", "layover", "connecting flight", "baggage claim", "passport control"],
+      "grammar": "Use 'going to' for planned travel and 'will' for spontaneous decisions at the airport. Example: 'I'm going to check in now.' vs 'I'll carry that for you.'"
+    },
+    "videos": [
+      { "title": "Airport English Vocabulary", "url": "https://www.youtube.com/embed/RGQlEdtVCFs" },
+      { "title": "At the Airport – Real Conversations", "url": "https://www.youtube.com/embed/0jzJC_-RNT4" }
+    ],
+    "conversation": [
+      { "speaker": "A", "text": "Excuse me, where is the check-in counter for Air France?" },
+      { "speaker": "B", "text": "It's on the second floor, counter number 14 to 18." },
+      { "speaker": "A", "text": "Thank you! And do you know if my flight is on time?" },
+      { "speaker": "B", "text": "You can check the departure board right there. It shows real-time updates." },
+      { "speaker": "A", "text": "Oh perfect. My boarding pass says Gate C7. Is that far?" },
+      { "speaker": "B", "text": "It's about a 10-minute walk. You should head there soon — boarding starts in 30 minutes." },
+      { "speaker": "A", "text": "Great, thank you so much for your help!" },
+      { "speaker": "B", "text": "Have a safe flight!" }
+    ],
+    "quiz": [
+      { "question": "Where do you go to get your ticket stamped before the flight?", "options": ["Baggage Claim", "Check-in Counter", "Arrivals Hall", "Customs"], "answer": 1 },
+      { "question": "What is a 'layover'?", "options": ["A type of luggage", "A stop between flights", "A boarding pass", "A departure gate"], "answer": 1 },
+      { "question": "Which phrase uses 'going to' correctly?", "options": ["I will check in now.", "I'm going to board the plane.", "She will layover in Paris.", "He going to arrive late."], "answer": 1 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Job Interviews",
+    "level": "B1",
+    "icon": "💼",
+    "color": "#0A66C2",
+    "description": "Master professional vocabulary and confident communication for job interviews.",
+    "summary": {
+      "vocabulary": ["resume / CV", "cover letter", "qualifications", "work experience", "references", "salary expectations", "strengths and weaknesses", "team player", "deadline", "multitasking", "probation period", "benefits package"],
+      "grammar": "Use Present Perfect to talk about experience: 'I have worked in customer service for 3 years.' Use 'would' for hypothetical questions: 'I would handle the situation by communicating clearly.'"
+    },
+    "videos": [
+      { "title": "Job Interview English Phrases", "url": "https://www.youtube.com/embed/1mHjMNZZvFo" },
+      { "title": "Common Interview Questions", "url": "https://www.youtube.com/embed/kwsHnHiLdFQ" }
+    ],
+    "conversation": [
+      { "speaker": "A", "text": "Good morning, please have a seat. Can you tell me a little about yourself?" },
+      { "speaker": "B", "text": "Of course! I'm a marketing graduate with two years of experience in digital campaigns." },
+      { "speaker": "A", "text": "That's great. What would you say is your biggest strength?" },
+      { "speaker": "B", "text": "I'd say my ability to manage multiple projects under tight deadlines is my strongest point." },
+      { "speaker": "A", "text": "And how do you handle working under pressure?" },
+      { "speaker": "B", "text": "I prioritize tasks, break them into smaller steps, and stay focused on the outcome." },
+      { "speaker": "A", "text": "Excellent. Do you have any questions for us?" },
+      { "speaker": "B", "text": "Yes — could you tell me more about the team I'd be working with?" }
+    ],
+    "quiz": [
+      { "question": "What document summarizes your work history?", "options": ["Cover Letter", "Reference", "Resume / CV", "Benefits Package"], "answer": 2 },
+      { "question": "Which tense do we use to talk about past experience?", "options": ["Simple Past", "Present Perfect", "Future Simple", "Past Continuous"], "answer": 1 },
+      { "question": "What does 'probation period' mean?", "options": ["A paid vacation", "A trial period at work", "A type of contract", "A job benefit"], "answer": 1 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "At the Doctor",
+    "level": "B1",
+    "icon": "🏥",
+    "color": "#0A66C2",
+    "description": "Learn medical vocabulary and how to describe symptoms and health concerns clearly.",
+    "summary": {
+      "vocabulary": ["appointment", "symptoms", "prescription", "diagnosis", "blood pressure", "allergies", "dosage", "specialist", "follow-up visit", "medical history", "side effects", "chronic condition"],
+      "grammar": "Use 'have been + -ing' for ongoing symptoms: 'I have been feeling dizzy for two days.' Use 'since' and 'for' to describe duration."
+    },
+    "videos": [
+      { "title": "English at the Doctor's Office", "url": "https://www.youtube.com/embed/TqNSFd5GNWM" },
+      { "title": "Medical English Vocabulary", "url": "https://www.youtube.com/embed/yRKBd3l4TvY" }
+    ],
+    "conversation": [
+      { "speaker": "A", "text": "Good afternoon. What seems to be the problem today?" },
+      { "speaker": "B", "text": "I've been having a terrible headache and a sore throat for the past three days." },
+      { "speaker": "A", "text": "I see. Do you have any fever or difficulty breathing?" },
+      { "speaker": "B", "text": "I had a slight fever last night, but it went down this morning." },
+      { "speaker": "A", "text": "Let me check your temperature and blood pressure. Are you allergic to any medication?" },
+      { "speaker": "B", "text": "Yes, I'm allergic to penicillin. It gives me a rash." },
+      { "speaker": "A", "text": "Noted. I'll prescribe something safe. Take this twice a day after meals for 5 days." },
+      { "speaker": "B", "text": "Should I come back if I don't feel better?" },
+      { "speaker": "A", "text": "Yes, schedule a follow-up in a week if symptoms persist." }
+    ],
+    "quiz": [
+      { "question": "What do we call a physical reaction to medication?", "options": ["Diagnosis", "Dosage", "Side Effect", "Prescription"], "answer": 2 },
+      { "question": "Which sentence is correct?", "options": ["I feel sick since Monday.", "I have been feeling sick since Monday.", "I was feeling sick since Monday.", "I am feeling sick for two days."], "answer": 1 },
+      { "question": "What is a 'follow-up visit'?", "options": ["First appointment", "Emergency visit", "A check-up after treatment", "A specialist visit"], "answer": 2 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Shopping & Bargaining",
+    "level": "B1",
+    "icon": "🛍️",
+    "color": "#0A66C2",
+    "description": "Navigate shopping situations, compare prices, and negotiate confidently in English.",
+    "summary": {
+      "vocabulary": ["discount", "receipt", "refund", "exchange", "fitting room", "out of stock", "on sale", "price tag", "warranty", "installment plan", "bargain", "cashier"],
+      "grammar": "Use comparative adjectives for shopping: 'This one is cheaper than that one.' Use 'too' and 'enough': 'It's too expensive.' / 'It's affordable enough.'"
+    },
+    "videos": [
+      { "title": "Shopping English Conversations", "url": "https://www.youtube.com/embed/0Q5BFuvV7f8" },
+      { "title": "How to Bargain in English", "url": "https://www.youtube.com/embed/LfEh38yZwRo" }
+    ],
+    "conversation": [
+      { "speaker": "A", "text": "Hi, I'm looking for a pair of running shoes. Do you have anything in size 42?" },
+      { "speaker": "B", "text": "Yes, we have a few options. This pair is our bestseller — it's lightweight and very comfortable." },
+      { "speaker": "A", "text": "It looks nice! How much does it cost?" },
+      { "speaker": "B", "text": "It's originally $120, but it's currently 20% off, so it comes to $96." },
+      { "speaker": "A", "text": "Can you go a little lower? I'd take it for $85." },
+      { "speaker": "B", "text": "I'm afraid I can't go below $90. That's the best I can do." },
+      { "speaker": "A", "text": "Alright, deal! Can I pay by card?" },
+      { "speaker": "B", "text": "Absolutely. I'll get you a receipt and a bag." }
+    ],
+    "quiz": [
+      { "question": "What does 'out of stock' mean?", "options": ["On sale", "Not available", "A good deal", "Overpriced"], "answer": 1 },
+      { "question": "Which comparison is correct?", "options": ["This is more cheap than that.", "This is cheaper than that.", "This is cheapest than that.", "This is the cheap of all."], "answer": 1 },
+      { "question": "What do you receive as proof of purchase?", "options": ["A warranty", "A receipt", "A discount", "A refund"], "answer": 1 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Making Plans",
+    "level": "B1",
+    "icon": "📅",
+    "color": "#0A66C2",
+    "description": "Learn how to make, accept, and politely decline plans and invitations in English.",
+    "summary": {
+      "vocabulary": ["arrange", "schedule", "available", "postpone", "cancel", "confirm", "suggest", "invitation", "RSVP", "look forward to", "convenient", "commitment"],
+      "grammar": "Use 'shall', 'how about', and 'why don't we' for suggestions. Use Present Continuous for future plans: 'I'm meeting Sarah on Friday.'"
+    },
+    "videos": [
+      { "title": "Making Plans in English", "url": "https://www.youtube.com/embed/SBb20ThkOi4" },
+      { "title": "Accepting & Declining Invitations", "url": "https://www.youtube.com/embed/BLMBbgERlIo" }
+    ],
+    "conversation": [
+      { "speaker": "A", "text": "Hey! Are you free this Saturday evening?" },
+      { "speaker": "B", "text": "I think so. What did you have in mind?" },
+      { "speaker": "A", "text": "Some friends and I are going to a rooftop restaurant downtown. Would you like to join us?" },
+      { "speaker": "B", "text": "That sounds lovely! What time are you planning to meet?" },
+      { "speaker": "A", "text": "We're thinking around 7:30. Is that convenient for you?" },
+      { "speaker": "B", "text": "7:30 works perfectly. Shall I make a reservation, or have you already sorted that?" },
+      { "speaker": "A", "text": "It's all sorted! Just let me know if anything comes up and you can't make it." },
+      { "speaker": "B", "text": "I will. I'm really looking forward to it!" }
+    ],
+    "quiz": [
+      { "question": "Which sentence correctly uses Present Continuous for future plans?", "options": ["I will meet her tomorrow.", "I meet her tomorrow.", "I'm meeting her tomorrow.", "I meet her on tomorrow."], "answer": 2 },
+      { "question": "What does 'RSVP' mean?", "options": ["Arrive Soon Very Please", "Please reply to the invitation", "Reserve Seats Very Promptly", "None of the above"], "answer": 1 },
+      { "question": "How do you politely decline a plan?", "options": ["No, I won't come.", "I'm afraid I can't make it — I have a prior commitment.", "I don't want to go.", "That's not possible."], "answer": 1 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Renting an Apartment",
+    "level": "B1",
+    "icon": "🏠",
+    "color": "#0A66C2",
+    "description": "Understand rental agreements, landlord-tenant communication, and housing vocabulary.",
+    "summary": {
+      "vocabulary": ["landlord", "tenant", "lease agreement", "security deposit", "utilities", "furnished", "maintenance", "notice period", "monthly rent", "ground floor", "amenities", "subletting"],
+      "grammar": "Use modal verbs for rights and obligations: 'You must pay rent by the 1st.' / 'You can't sublet without permission.' / 'The landlord should fix the heating.'"
+    },
+    "videos": [
+      { "title": "Renting in English – Key Vocabulary", "url": "https://www.youtube.com/embed/wLHBhsBlBig" },
+      { "title": "Talking to Your Landlord", "url": "https://www.youtube.com/embed/yJm2MLPIQN0" }
+    ],
+    "conversation": [
+      { "speaker": "A", "text": "Hello, I'm calling about the two-bedroom apartment listed online. Is it still available?" },
+      { "speaker": "B", "text": "Yes, it is! Would you like to schedule a viewing?" },
+      { "speaker": "A", "text": "Absolutely. Can you tell me a bit more about it first? Is it furnished?" },
+      { "speaker": "B", "text": "It comes partially furnished — there's a bed, sofa, and kitchen appliances." },
+      { "speaker": "A", "text": "What about utilities? Are they included in the rent?" },
+      { "speaker": "B", "text": "Water and internet are included. Electricity is paid separately by the tenant." },
+      { "speaker": "A", "text": "And what's the security deposit?" },
+      { "speaker": "B", "text": "It's two months' rent, refundable at the end of your lease if there's no damage." }
+    ],
+    "quiz": [
+      { "question": "What is a 'security deposit'?", "options": ["Monthly rent payment", "A refundable payment made before moving in", "A type of insurance", "A maintenance fee"], "answer": 1 },
+      { "question": "Which modal verb expresses obligation?", "options": ["Can", "Might", "Must", "Should"], "answer": 2 },
+      { "question": "What does 'furnished' mean?", "options": ["With furniture included", "Newly painted", "Utilities included", "Recently renovated"], "answer": 0 }
+    ]
+  }
+]

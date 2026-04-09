@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="English Leap — Chapter details with vocabulary, videos, and conversation practice." />
+  <title>Chapter — English Leap</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ======= NAVBAR ======= -->
+  <nav class="navbar" role="navigation" aria-label="Chapter navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-back" aria-label="Back to all chapters">
+        ← <span id="navChapterTitle">Back to Chapters</span>
+      </a>
+      <div class="nav-actions">
+        <button class="btn-icon" id="darkToggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======= CHAPTER HERO ======= -->
+  <header class="chapter-hero" role="banner">
+    <div class="chapter-hero-inner">
+      <div class="chapter-icon-big" id="chapterIcon" aria-hidden="true">📖</div>
+      <div class="chapter-hero-text">
+        <div class="chapter-level-badge" id="chapterLevelBadge">B1</div>
+        <h1 id="chapterTitle">Loading…</h1>
+        <p id="chapterDesc"></p>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======= CHAPTER CONTENT ======= -->
+  <div class="chapter-content">
+    <div class="chapter-layout">
+
+      <!-- Sidebar (desktop) -->
+      <aside class="chapter-sidebar" aria-label="Chapter sections">
+        <div class="sidebar-card">
+          <p style="font-size:0.72rem;font-weight:700;color:var(--gray-400);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:12px;">Sections</p>
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <button class="sidebar-nav-item active" data-tab="summary">
+              <span class="s-icon">📝</span> Summary
+            </button>
+            <button class="sidebar-nav-item" data-tab="videos">
+              <span class="s-icon">📺</span> Videos
+            </button>
+            <button class="sidebar-nav-item" data-tab="conversation">
+              <span class="s-icon">💬</span> Conversation
+            </button>
+            <button class="sidebar-nav-item" data-tab="quiz">
+              <span class="s-icon">🧠</span> Quiz
+            </button>
+            <button class="sidebar-nav-item" data-tab="flashcards">
+              <span class="s-icon">🃏</span> Flashcards
+            </button>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <p style="font-size:0.72rem;font-weight:700;color:var(--gray-400);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:12px;">Quick Actions</p>
+          <div style="display:flex;flex-direction:column;gap:8px;">
+            <button class="btn btn-ghost" onclick="readFullConversation()" style="width:100%;font-size:0.82rem;justify-content:center;">
+              ▶️ Read Conversation
+            </button>
+            <button class="btn btn-ghost" onclick="stopSpeech()" style="width:100%;font-size:0.82rem;justify-content:center;">
+              ⏹ Stop Audio
+            </button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <div role="main">
+
+        <!-- TABS -->
+        <div class="tabs-wrap mb-6" role="tablist" aria-label="Chapter sections">
+          <button class="tab-btn active" data-tab="summary" role="tab" aria-selected="true" aria-controls="summaryPanel">
+            📝 Summary
+          </button>
+          <button class="tab-btn" data-tab="videos" role="tab" aria-selected="false" aria-controls="videosPanel">
+            📺 Videos
+          </button>
+          <button class="tab-btn" data-tab="conversation" role="tab" aria-selected="false" aria-controls="conversationPanel">
+            💬 Chat
+          </button>
+          <button class="tab-btn" data-tab="quiz" role="tab" aria-selected="false" aria-controls="quizPanel">
+            🧠 Quiz
+          </button>
+          <button class="tab-btn" data-tab="flashcards" role="tab" aria-selected="false" aria-controls="flashcardsPanel">
+            🃏 Flashcards
+          </button>
+        </div>
+
+        <!-- TAB PANELS -->
+
+        <!-- Summary -->
+        <div class="tab-panel active" id="summaryPanel" role="tabpanel" aria-labelledby="summary-tab">
+          <div class="skeleton skeleton-card" style="margin-bottom:16px;height:180px;"></div>
+          <div class="skeleton skeleton-card" style="height:100px;"></div>
+        </div>
+
+        <!-- Videos -->
+        <div class="tab-panel" id="videosPanel" role="tabpanel" aria-labelledby="videos-tab">
+          <div class="skeleton skeleton-card" style="height:240px;"></div>
+        </div>
+
+        <!-- Conversation -->
+        <div class="tab-panel" id="conversationPanel" role="tabpanel" aria-labelledby="conversation-tab">
+          <div class="skeleton skeleton-card" style="height:300px;"></div>
+        </div>
+
+        <!-- Quiz -->
+        <div class="tab-panel" id="quizPanel" role="tabpanel" aria-labelledby="quiz-tab">
+          <div class="skeleton skeleton-card" style="height:280px;"></div>
+        </div>
+
+        <!-- Flashcards -->
+        <div class="tab-panel" id="flashcardsPanel" role="tabpanel" aria-labelledby="flashcards-tab">
+          <div class="skeleton skeleton-card" style="height:200px;"></div>
+        </div>
+
+      </div><!-- /main content -->
+    </div><!-- /chapter-layout -->
+  </div><!-- /chapter-content -->
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer" role="contentinfo">
+    <p>Made with ❤️ for English learners &nbsp;|&nbsp; <strong>English Leap</strong> &nbsp;|&nbsp; B1 Level Course</p>
+  </footer>
+
+  <!-- ======= TOAST ======= -->
+  <div id="toastContainer" aria-live="polite"></div>
+
+  <script src="js/chapter.js"></script>
+</body>
+</html>

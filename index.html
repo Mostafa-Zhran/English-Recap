@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="English Leap — A modern B1 English learning platform with vocabulary, videos, and conversation practice." />
+  <title>English Leap — B1 English Course</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ======= NAVBAR ======= -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="English Leap Home">
+        <div class="logo-icon">📘</div>
+        <span>English <em>Leap</em></span>
+      </a>
+      <div class="nav-actions">
+        <div class="nav-search-wrap">
+          <span class="search-icon-nav">🔍</span>
+          <input 
+            type="search" 
+            id="navSearch" 
+            placeholder="Search chapters..." 
+            aria-label="Search chapters"
+            autocomplete="off" />
+        </div>
+        <button class="btn-icon" id="darkToggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======= HERO ======= -->
+  <header class="hero" role="banner">
+    <div class="hero-badge">✨ B1 Level Course</div>
+    <h1>Master <em>English</em> with Confidence</h1>
+    <p>Explore real-world topics, build vocabulary, watch curated videos, and practice natural conversations.</p>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num" data-target="6" data-suffix="">0</div>
+        <div class="stat-label">Chapters</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="72" data-suffix="+">0+</div>
+        <div class="stat-label">Vocabulary Words</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="12" data-suffix="">0</div>
+        <div class="stat-label">Videos</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="18" data-suffix="">0</div>
+        <div class="stat-label">Quiz Questions</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======= MAIN CONTENT ======= -->
+  <main class="container" role="main">
+
+    <!-- Section Header -->
+    <div class="section-header">
+      <div class="section-title">
+        <span class="icon">📚</span>
+        All Chapters
+        <span class="section-count" id="chapterCount">—</span>
+      </div>
+      <div class="filter-bar" role="group" aria-label="Filter by level">
+        <button class="filter-btn active" data-filter="all">All Levels</button>
+        <button class="filter-btn" data-filter="b1">B1</button>
+        <button class="filter-btn" data-filter="b2">B2</button>
+      </div>
+    </div>
+
+    <!-- Chapters Grid -->
+    <div class="chapters-grid" id="chaptersGrid" role="list" aria-live="polite" aria-label="Chapters list">
+      <!-- Populated by JS -->
+    </div>
+
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer" role="contentinfo">
+    <p>Made with ❤️ for English learners &nbsp;|&nbsp; <strong>English Leap</strong> &nbsp;|&nbsp; B1 Level Course</p>
+  </footer>
+
+  <!-- ======= TOAST ======= -->
+  <div id="toastContainer" aria-live="polite"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
