@@ -1,201 +1,223 @@
 [
   {
     "id": 1,
-    "title": "At the Airport",
+    "title": "Nice to See You Again",
     "level": "B1",
-    "icon": "✈️",
+    "icon": "👋",
     "color": "#0A66C2",
-    "description": "Learn essential vocabulary and phrases for navigating airports confidently.",
+    "description": "Learn how to greet people, reconnect with acquaintances, and talk about past experiences and personal background.",
     "summary": {
       "vocabulary": [
-        "boarding pass",
-        "departure gate",
-        "arrivals hall",
-        "customs declaration",
-        "carry-on luggage",
-        "check-in counter",
-        "security checkpoint",
-        "overhead compartment",
-        "layover",
-        "connecting flight",
-        "baggage claim",
-        "passport control"
+        "acquaintance",
+        "catch up",
+        "get married",
+        "have a baby",
+        "promotion",
+        "graduate",
+        "degree",
+        "résumé",
+        "experience",
+        "field of work",
+        "colleague",
+        "reunion"
       ],
-      "grammar": "Use 'going to' for planned travel and 'will' for spontaneous decisions at the airport. Example: 'I'm going to check in now.' vs 'I'll carry that for you.'"
+      "grammar": "Use the present perfect to talk about life experiences and actions connected to the present (e.g., 'I have worked here for five years'). Use the simple past for completed actions at a specific time (e.g., 'I met her last year')."
     },
     "videos": [
       {
-        "title": "Airport English Vocabulary",
-        "url": "https://youtu.be/juPlEnOKl48?si=9j0xC9ZW8YYt-jSM"
+        "title": "Greetings and Introductions in English",
+        "url": "https://youtu.be/WyBY5KoOf8g?si=AzLVR_jac_BaWPnb"
       },
       {
-        "title": "At the Airport – Real Conversations",
-        "url": "https://youtu.be/K7aUFUwLUss?si=CSaZAe4TiSe2HmBV"
+        "title": "Greetings and Introductions in English",
+        "url": "https://youtu.be/sp3xU5WvRjA?si=UVYvD4m3vDwJPdms"
+      },
+      {
+        "title": "Present Perfect vs Past Simple Explained",
+        "url": "https://youtu.be/T09u75kiKGc?si=t5vNJySGXu08A2t6"
+      },
+      {
+        "title": "Present Perfect vs Past Simple Explained",
+        "url": "https://youtu.be/mnbXZQE5hJg?si=36jou6AKrlF6Izo7"
       }
     ],
     "conversation": [
       {
         "speaker": "A",
-        "text": "Excuse me, where is the check-in counter for Air France?"
+        "text": "Hey, long time no see! How have you been?"
       },
       {
         "speaker": "B",
-        "text": "It's on the second floor, counter number 14 to 18."
+        "text": "I've been great! I actually started a new job last month."
       },
       {
         "speaker": "A",
-        "text": "Thank you! And do you know if my flight is on time?"
+        "text": "That's awesome. What field are you working in now?"
       },
       {
         "speaker": "B",
-        "text": "You can check the departure board right there. It shows real-time updates."
+        "text": "I'm working in marketing. I've been in this field for about three years."
       },
       {
         "speaker": "A",
-        "text": "Oh perfect. My boarding pass says Gate C7. Is that far?"
+        "text": "Nice! I haven't seen you since our last meeting."
       },
       {
         "speaker": "B",
-        "text": "It's about a 10-minute walk. You should head there soon — boarding starts in 30 minutes."
+        "text": "Yeah, it's been a while. Have you done anything exciting lately?"
       },
       {
         "speaker": "A",
-        "text": "Great, thank you so much for your help!"
+        "text": "Yes! I just got promoted last week."
       },
       {
         "speaker": "B",
-        "text": "Have a safe flight!"
+        "text": "Congratulations! That's fantastic news."
       }
     ],
     "quiz": [
       {
-        "question": "Where do you go to get your ticket stamped before the flight?",
+        "question": "Which sentence uses the present perfect correctly?",
         "options": [
-          "Baggage Claim",
-          "Check-in Counter",
-          "Arrivals Hall",
-          "Customs"
+          "I met her last year.",
+          "I have met her last year.",
+          "I have met her before.",
+          "I meet her yesterday."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "What does 'catch up' mean?",
+        "options": [
+          "To run fast",
+          "To meet and talk about recent events",
+          "To forget something",
+          "To travel abroad"
         ],
         "answer": 1
       },
       {
-        "question": "What is a 'layover'?",
+        "question": "Which sentence is correct?",
         "options": [
-          "A type of luggage",
-          "A stop between flights",
-          "A boarding pass",
-          "A departure gate"
+          "I have worked here since 2020.",
+          "I worked here since 2020.",
+          "I work here since 2020.",
+          "I am worked here since 2020."
         ],
-        "answer": 1
-      },
-      {
-        "question": "Which phrase uses 'going to' correctly?",
-        "options": [
-          "I will check in now.",
-          "I'm going to board the plane.",
-          "She will layover in Paris.",
-          "He going to arrive late."
-        ],
-        "answer": 1
+        "answer": 0
       }
     ]
   },
   {
     "id": 2,
-    "title": "Job Interviews",
+    "title": "Are You Ready for Your Guests?",
     "level": "B1",
-    "icon": "💼",
+    "icon": "🎉",
     "color": "#0A66C2",
-    "description": "Master professional vocabulary and confident communication for job interviews.",
+    "description": "Learn how to plan events, manage guests, give updates, and make suggestions effectively.",
     "summary": {
       "vocabulary": [
-        "resume / CV",
-        "cover letter",
-        "qualifications",
-        "work experience",
-        "references",
-        "salary expectations",
-        "strengths and weaknesses",
-        "team player",
-        "deadline",
-        "multitasking",
-        "probation period",
-        "benefits package"
+        "guest",
+        "event",
+        "caterer",
+        "decorations",
+        "invitation",
+        "reservation",
+        "agenda",
+        "tour",
+        "celebration",
+        "anniversary",
+        "pick up",
+        "drop off",
+        "fill out",
+        "look over"
       ],
-      "grammar": "Use Present Perfect to talk about experience: 'I have worked in customer service for 3 years.' Use 'would' for hypothetical questions: 'I would handle the situation by communicating clearly.'"
+      "grammar": "Use the present perfect with 'already' and 'yet' to talk about completed and unfinished tasks (e.g., 'I have already booked the tickets', 'I haven't called the restaurant yet'). Use 'suggest + -ing' to make suggestions (e.g., 'I suggest booking a table in advance')."
     },
     "videos": [
       {
-        "title": "Job Interview English Phrases",
-        "url": "https://www.youtube.com/embed/1mHjMNZZvFo"
+        "title": "Planning an Event in English",
+        "url": "https://youtu.be/nuoLUD9NII8?si=b_jVSc7mNhsRgaMk"
       },
       {
-        "title": "Common Interview Questions",
-        "url": "https://www.youtube.com/embed/kwsHnHiLdFQ"
+        "title": "Planning an Event in English",
+        "url": "https://youtu.be/gu0zJ8eJk_4?si=racN3E5tpGkyWfgT"
+      },
+      {
+        "title": "Making Suggestions in English",
+        "url": "https://youtu.be/S7532uo3Z3Y?si=GaBNayhQHrYv6EZ3"
+      },
+      {
+        "title": "Making Suggestions in English",
+        "url": "https://youtu.be/7wT7BzAoyj0?si=DdfKV9s3mMSQZgoO"
       }
     ],
     "conversation": [
       {
         "speaker": "A",
-        "text": "Good morning, please have a seat. Can you tell me a little about yourself?"
+        "text": "Are you ready for the event tomorrow?"
       },
       {
         "speaker": "B",
-        "text": "Of course! I'm a marketing graduate with two years of experience in digital campaigns."
+        "text": "Almost. I've already booked the restaurant, but I haven't ordered the cake yet."
       },
       {
         "speaker": "A",
-        "text": "That's great. What would you say is your biggest strength?"
+        "text": "Have you sent out the invitations?"
       },
       {
         "speaker": "B",
-        "text": "I'd say my ability to manage multiple projects under tight deadlines is my strongest point."
+        "text": "Yes, I sent them yesterday. Everyone has confirmed."
       },
       {
         "speaker": "A",
-        "text": "And how do you handle working under pressure?"
+        "text": "Great! Who is picking up the guests from the airport?"
       },
       {
         "speaker": "B",
-        "text": "I prioritize tasks, break them into smaller steps, and stay focused on the outcome."
+        "text": "John will pick them up. He has already arranged the transportation."
       },
       {
         "speaker": "A",
-        "text": "Excellent. Do you have any questions for us?"
+        "text": "What do you suggest for the decorations?"
       },
       {
         "speaker": "B",
-        "text": "Yes — could you tell me more about the team I'd be working with?"
+        "text": "I suggest using simple flowers and lights. That sounds like a good idea, right?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, that sounds perfect!"
       }
     ],
     "quiz": [
       {
-        "question": "What document summarizes your work history?",
+        "question": "Which sentence uses 'already' correctly?",
         "options": [
-          "Cover Letter",
-          "Reference",
-          "Resume / CV",
-          "Benefits Package"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Which tense do we use to talk about past experience?",
-        "options": [
-          "Simple Past",
-          "Present Perfect",
-          "Future Simple",
-          "Past Continuous"
+          "I already haven't booked the tickets.",
+          "I have already booked the tickets.",
+          "I booked already the tickets yesterday.",
+          "I am already booking the tickets."
         ],
         "answer": 1
       },
       {
-        "question": "What does 'probation period' mean?",
+        "question": "What does 'pick up' mean?",
         "options": [
-          "A paid vacation",
-          "A trial period at work",
-          "A type of contract",
-          "A job benefit"
+          "To drop something",
+          "To clean something",
+          "To collect someone or something",
+          "To cancel something"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Which sentence is correct?",
+        "options": [
+          "I suggest to call him.",
+          "I suggest calling him.",
+          "I suggest call him.",
+          "I suggesting calling him."
         ],
         "answer": 1
       }
@@ -203,205 +225,203 @@
   },
   {
     "id": 3,
-    "title": "At the Doctor",
+    "title": "Have You Ever Been There?",
     "level": "B1",
-    "icon": "🏥",
+    "icon": "🌍",
     "color": "#0A66C2",
-    "description": "Learn medical vocabulary and how to describe symptoms and health concerns clearly.",
+    "description": "Learn how to talk about travel destinations, describe vacation experiences, and discuss activities using real-life English.",
     "summary": {
       "vocabulary": [
-        "appointment",
-        "symptoms",
-        "prescription",
-        "diagnosis",
-        "blood pressure",
-        "allergies",
-        "dosage",
-        "specialist",
-        "follow-up visit",
-        "medical history",
-        "side effects",
-        "chronic condition"
+        "tourist attraction",
+        "national park",
+        "cruise",
+        "sightseeing",
+        "destination",
+        "island",
+        "festival",
+        "museum",
+        "hiking",
+        "sunbathing",
+        "package tour",
+        "last-minute deal",
+        "brochure",
+        "getaway"
       ],
-      "grammar": "Use 'have been + -ing' for ongoing symptoms: 'I have been feeling dizzy for two days.' Use 'since' and 'for' to describe duration."
+      "grammar": "Use present perfect with 'ever' and 'never' to talk about life experiences (e.g., 'Have you ever been to Paris?'). Use passive voice to describe places (e.g., 'The pyramids were built centuries ago'). Use gerunds as subjects (e.g., 'Hiking is fun')."
     },
     "videos": [
       {
-        "title": "English at the Doctor's Office",
-        "url": "https://www.youtube.com/embed/TqNSFd5GNWM"
+        "title": "Travel English – Talking About Vacations",
+        "url": "https://youtu.be/N2StxicQois?si=n03pyH7yQrGMsYFX"
       },
       {
-        "title": "Medical English Vocabulary",
-        "url": "https://www.youtube.com/embed/yRKBd3l4TvY"
+        "title": "Have You Ever...? English Conversation",
+        "url": "https://youtu.be/E9pFeMKZR1I?si=7PWgQueF5wmEpgZ-"
       }
     ],
     "conversation": [
       {
         "speaker": "A",
-        "text": "Good afternoon. What seems to be the problem today?"
+        "text": "Have you ever been to the Grand Canyon?"
       },
       {
         "speaker": "B",
-        "text": "I've been having a terrible headache and a sore throat for the past three days."
+        "text": "No, I haven’t. But I’ve always wanted to go there."
       },
       {
         "speaker": "A",
-        "text": "I see. Do you have any fever or difficulty breathing?"
+        "text": "I went there last year. It was one of the most amazing places I’ve ever seen."
       },
       {
         "speaker": "B",
-        "text": "I had a slight fever last night, but it went down this morning."
+        "text": "That sounds incredible! What did you do there?"
       },
       {
         "speaker": "A",
-        "text": "Let me check your temperature and blood pressure. Are you allergic to any medication?"
+        "text": "We went hiking and took lots of pictures. Hiking there is really fun."
       },
       {
         "speaker": "B",
-        "text": "Yes, I'm allergic to penicillin. It gives me a rash."
+        "text": "Nice! Have you ever tried a cruise?"
       },
       {
         "speaker": "A",
-        "text": "Noted. I'll prescribe something safe. Take this twice a day after meals for 5 days."
+        "text": "Yes, I have. I went on a cruise to Alaska two years ago."
       },
       {
         "speaker": "B",
-        "text": "Should I come back if I don't feel better?"
-      },
-      {
-        "speaker": "A",
-        "text": "Yes, schedule a follow-up in a week if symptoms persist."
+        "text": "Wow! I’ve never been on a cruise. I think I should try it someday."
       }
     ],
     "quiz": [
       {
-        "question": "What do we call a physical reaction to medication?",
+        "question": "Which sentence uses 'ever' correctly?",
         "options": [
-          "Diagnosis",
-          "Dosage",
-          "Side Effect",
-          "Prescription"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "I feel sick since Monday.",
-          "I have been feeling sick since Monday.",
-          "I was feeling sick since Monday.",
-          "I am feeling sick for two days."
+          "I ever went to Paris.",
+          "Have you ever been to Italy?",
+          "I have ever seen that movie.",
+          "Ever I visited London."
         ],
         "answer": 1
       },
       {
-        "question": "What is a 'follow-up visit'?",
+        "question": "What does 'sightseeing' mean?",
         "options": [
-          "First appointment",
-          "Emergency visit",
-          "A check-up after treatment",
-          "A specialist visit"
+          "Shopping for clothes",
+          "Visiting famous places",
+          "Sleeping in a hotel",
+          "Cooking food"
         ],
-        "answer": 2
+        "answer": 1
+      },
+      {
+        "question": "Which sentence is in passive voice?",
+        "options": [
+          "People visit the museum every day.",
+          "The museum is visited every day.",
+          "They are visiting the museum.",
+          "We visited the museum yesterday."
+        ],
+        "answer": 1
       }
     ]
   },
   {
     "id": 4,
-    "title": "Shopping & Bargaining",
+    "title": "How is the dish prepared?",
     "level": "B1",
-    "icon": "🛍️",
-    "color": "#0A66C2",
-    "description": "Navigate shopping situations, compare prices, and negotiate confidently in English.",
+    "icon": "🍽️",
+    "color": "#E67E22",
+    "description": "Learn how to order food, ask about dishes, and give feedback in restaurants.",
     "summary": {
       "vocabulary": [
-        "discount",
-        "receipt",
-        "refund",
-        "exchange",
-        "fitting room",
-        "out of stock",
-        "on sale",
-        "price tag",
-        "warranty",
-        "installment plan",
-        "bargain",
-        "cashier"
+        "appetizer",
+        "main course",
+        "dessert",
+        "grilled",
+        "fried",
+        "poached",
+        "sautéed",
+        "undercooked",
+        "overcooked",
+        "overpriced",
+        "recommend",
+        "special request"
       ],
-      "grammar": "Use comparative adjectives for shopping: 'This one is cheaper than that one.' Use 'too' and 'enough': 'It's too expensive.' / 'It's affordable enough.'"
+      "grammar": "Use passive voice to describe food preparation (e.g., 'The fish is grilled'). Use 'so...that' to describe results (e.g., 'The food was so good that we ordered more')."
     },
     "videos": [
       {
-        "title": "Shopping English Conversations",
-        "url": "https://www.youtube.com/embed/0Q5BFuvV7f8"
+        "title": "Restaurant English – Ordering Food",
+        "url": "https://youtu.be/sh6LRcPVpI0?si=OAhYZOey07nUBg_D"
       },
       {
-        "title": "How to Bargain in English",
-        "url": "https://www.youtube.com/embed/LfEh38yZwRo"
+        "title": "English Conversation at a Restaurant",
+        "url": "https://youtu.be/3OXBqIGJzkg?si=sQ8E925gtKJ85AJq"
       }
     ],
     "conversation": [
       {
         "speaker": "A",
-        "text": "Hi, I'm looking for a pair of running shoes. Do you have anything in size 42?"
+        "text": "Excuse me, how is the fish prepared?"
       },
       {
         "speaker": "B",
-        "text": "Yes, we have a few options. This pair is our bestseller — it's lightweight and very comfortable."
+        "text": "It’s grilled and served with vegetables and rice."
       },
       {
         "speaker": "A",
-        "text": "It looks nice! How much does it cost?"
+        "text": "That sounds good. I think I’ll have that."
       },
       {
         "speaker": "B",
-        "text": "It's originally $120, but it's currently 20% off, so it comes to $96."
+        "text": "Would you like anything to drink?"
       },
       {
         "speaker": "A",
-        "text": "Can you go a little lower? I'd take it for $85."
+        "text": "Yes, I’ll have a glass of water, please."
       },
       {
         "speaker": "B",
-        "text": "I'm afraid I can't go below $90. That's the best I can do."
+        "text": "Sure. I’ll bring your order shortly."
       },
       {
         "speaker": "A",
-        "text": "Alright, deal! Can I pay by card?"
+        "text": "Excuse me, this isn’t what I ordered."
       },
       {
         "speaker": "B",
-        "text": "Absolutely. I'll get you a receipt and a bag."
+        "text": "I’m very sorry. I’ll replace it right away."
       }
     ],
     "quiz": [
       {
-        "question": "What does 'out of stock' mean?",
+        "question": "What does 'grilled' mean?",
         "options": [
-          "On sale",
-          "Not available",
-          "A good deal",
-          "Overpriced"
+          "Cooked in water",
+          "Cooked over fire",
+          "Cooked in oil",
+          "Served cold"
         ],
         "answer": 1
       },
       {
-        "question": "Which comparison is correct?",
+        "question": "What should you say if the food is wrong?",
         "options": [
-          "This is more cheap than that.",
-          "This is cheaper than that.",
-          "This is cheapest than that.",
-          "This is the cheap of all."
+          "Everything is fine",
+          "I’ll take the check",
+          "This isn’t what I ordered",
+          "I recommend this"
         ],
-        "answer": 1
+        "answer": 2
       },
       {
-        "question": "What do you receive as proof of purchase?",
+        "question": "Which sentence uses 'so...that' correctly?",
         "options": [
-          "A warranty",
-          "A receipt",
-          "A discount",
-          "A refund"
+          "The food so good",
+          "The food was so good that we ordered more",
+          "So food good we eat",
+          "The food is good so"
         ],
         "answer": 1
       }
@@ -409,203 +429,204 @@
   },
   {
     "id": 5,
-    "title": "Making Plans",
+    "title": "Enjoy your flight!",
     "level": "B1",
-    "icon": "📅",
-    "color": "#0A66C2",
-    "description": "Learn how to make, accept, and politely decline plans and invitations in English.",
+    "icon": "🛫",
+    "color": "#FF6B35",
+    "description": "Learn how to check in, navigate airports, and understand in-flight announcements.",
     "summary": {
       "vocabulary": [
-        "arrange",
-        "schedule",
-        "available",
-        "postpone",
-        "cancel",
-        "confirm",
-        "suggest",
-        "invitation",
-        "RSVP",
-        "look forward to",
-        "convenient",
-        "commitment"
+        "boarding pass",
+        "check-in",
+        "carry-on luggage",
+        "baggage claim",
+        "security checkpoint",
+        "passport control",
+        "overhead bin",
+        "seatbelt",
+        "aisle seat",
+        "window seat",
+        "flight attendant",
+        "takeoff",
+        "landing"
       ],
-      "grammar": "Use 'shall', 'how about', and 'why don't we' for suggestions. Use Present Continuous for future plans: 'I'm meeting Sarah on Friday.'"
+      "grammar": "Use future progressive for ongoing future actions (e.g., 'I will be traveling tomorrow'). Use possessive pronouns like mine, yours, his. Reported speech: 'He said that...' or 'She asked if...'"
     },
     "videos": [
       {
-        "title": "Making Plans in English",
-        "url": "https://www.youtube.com/embed/SBb20ThkOi4"
+        "title": "English at the Airport – Checking In",
+        "url": "https://youtu.be/jiBHZ_rqHB8?si=fxBeAJO4TEK6CpgV"
       },
       {
-        "title": "Accepting & Declining Invitations",
-        "url": "https://www.youtube.com/embed/BLMBbgERlIo"
+        "title": "In-flight Announcements & Airplane English",
+        "url": "https://youtu.be/-IRIJpA7FzY?si=N_1cFUtmYcKuT_UK"
+      },
+      {
+        "title": "English at the Airport – Checking In",
+        "url": "https://youtu.be/K7aUFUwLUss?si=dMDJRkGqMjjG0zRc"
       }
     ],
     "conversation": [
       {
         "speaker": "A",
-        "text": "Hey! Are you free this Saturday evening?"
+        "text": "Good morning. I’d like to check in for my flight to London."
       },
       {
         "speaker": "B",
-        "text": "I think so. What did you have in mind?"
+        "text": "Of course. May I see your passport, please?"
       },
       {
         "speaker": "A",
-        "text": "Some friends and I are going to a rooftop restaurant downtown. Would you like to join us?"
+        "text": "Here you go. I only have this carry-on bag."
       },
       {
         "speaker": "B",
-        "text": "That sounds lovely! What time are you planning to meet?"
+        "text": "Great. Would you prefer a window or an aisle seat?"
       },
       {
         "speaker": "A",
-        "text": "We're thinking around 7:30. Is that convenient for you?"
+        "text": "A window seat, please."
       },
       {
         "speaker": "B",
-        "text": "7:30 works perfectly. Shall I make a reservation, or have you already sorted that?"
+        "text": "Alright. Here is your boarding pass. Gate B12."
       },
       {
         "speaker": "A",
-        "text": "It's all sorted! Just let me know if anything comes up and you can't make it."
+        "text": "Thank you. What time does boarding start?"
       },
       {
         "speaker": "B",
-        "text": "I will. I'm really looking forward to it!"
+        "text": "Boarding will begin in about 30 minutes."
       }
     ],
     "quiz": [
       {
-        "question": "Which sentence correctly uses Present Continuous for future plans?",
+        "question": "Where do you check in for your flight?",
         "options": [
-          "I will meet her tomorrow.",
-          "I meet her tomorrow.",
-          "I'm meeting her tomorrow.",
-          "I meet her on tomorrow."
+          "Baggage Claim",
+          "Check-in Counter",
+          "Security Gate",
+          "Boarding Area"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What is a 'carry-on bag'?",
+        "options": [
+          "A bag you leave at the airport",
+          "A bag you take on the plane",
+          "A bag for food only",
+          "A bag for documents"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Which sentence is future progressive?",
+        "options": [
+          "I travel tomorrow",
+          "I will travel tomorrow",
+          "I will be traveling tomorrow",
+          "I traveled yesterday"
         ],
         "answer": 2
-      },
-      {
-        "question": "What does 'RSVP' mean?",
-        "options": [
-          "Arrive Soon Very Please",
-          "Please reply to the invitation",
-          "Reserve Seats Very Promptly",
-          "None of the above"
-        ],
-        "answer": 1
-      },
-      {
-        "question": "How do you politely decline a plan?",
-        "options": [
-          "No, I won't come.",
-          "I'm afraid I can't make it — I have a prior commitment.",
-          "I don't want to go.",
-          "That's not possible."
-        ],
-        "answer": 1
       }
     ]
   },
   {
     "id": 6,
-    "title": "Renting an Apartment",
+    "title": "Now you can ...! (Review and Practice)",
     "level": "B1",
-    "icon": "🏠",
-    "color": "#0A66C2",
-    "description": "Understand rental agreements, landlord-tenant communication, and housing vocabulary.",
+    "icon": "🎯",
+    "color": "#6C5CE7",
+    "description": "Review and practice all the skills learned in previous chapters through real-life situations.",
     "summary": {
       "vocabulary": [
-        "landlord",
-        "tenant",
-        "lease agreement",
-        "security deposit",
-        "utilities",
-        "furnished",
-        "maintenance",
-        "notice period",
-        "monthly rent",
-        "ground floor",
-        "amenities",
-        "subletting"
+        "check in",
+        "baggage claim",
+        "boarding pass",
+        "menu",
+        "reservation",
+        "tourist attraction",
+        "vacation",
+        "suggestion",
+        "appointment",
+        "conversation",
+        "experience",
+        "announcement"
       ],
-      "grammar": "Use modal verbs for rights and obligations: 'You must pay rent by the 1st.' / 'You can't sublet without permission.' / 'The landlord should fix the heating.'"
+      "grammar": "Review of present perfect, past simple, future forms, suggestions, and reported speech. Focus on real-life communication and fluency."
     },
     "videos": [
       {
-        "title": "Renting in English – Key Vocabulary",
-        "url": "https://www.youtube.com/embed/wLHBhsBlBig"
+        "title": "English Conversation Practice – Real Life Situations",
+        "url": "https://youtu.be/k2AQfG-ziP8?si=oHS3SHy7Tv9uyfd2"
       },
       {
-        "title": "Talking to Your Landlord",
-        "url": "https://www.youtube.com/embed/yJm2MLPIQN0"
+        "title": "Daily English Speaking Practice",
+        "url": "https://youtu.be/henIVlCPVIY?si=8mvzFTH5FOwB9ydi"
       }
     ],
     "conversation": [
       {
         "speaker": "A",
-        "text": "Hello, I'm calling about the two-bedroom apartment listed online. Is it still available?"
+        "text": "Hey! Long time no see! How have you been?"
       },
       {
         "speaker": "B",
-        "text": "Yes, it is! Would you like to schedule a viewing?"
+        "text": "I’ve been great! I got married last year and I just had a baby."
       },
       {
         "speaker": "A",
-        "text": "Absolutely. Can you tell me a bit more about it first? Is it furnished?"
+        "text": "Wow, congratulations! That’s amazing."
       },
       {
         "speaker": "B",
-        "text": "It comes partially furnished — there's a bed, sofa, and kitchen appliances."
+        "text": "Thanks! What about you?"
       },
       {
         "speaker": "A",
-        "text": "What about utilities? Are they included in the rent?"
+        "text": "I started a new job and moved to another country."
       },
       {
         "speaker": "B",
-        "text": "Water and internet are included. Electricity is paid separately by the tenant."
+        "text": "That sounds exciting! We should catch up over coffee."
       },
       {
         "speaker": "A",
-        "text": "And what's the security deposit?"
-      },
-      {
-        "speaker": "B",
-        "text": "It's two months' rent, refundable at the end of your lease if there's no damage."
+        "text": "Great idea! Let’s meet this weekend."
       }
     ],
     "quiz": [
       {
-        "question": "What is a 'security deposit'?",
+        "question": "Which sentence is present perfect?",
         "options": [
-          "Monthly rent payment",
-          "A refundable payment made before moving in",
-          "A type of insurance",
-          "A maintenance fee"
+          "I went to Paris last year.",
+          "I have been to Paris.",
+          "I will go to Paris.",
+          "I am going to Paris."
         ],
         "answer": 1
       },
       {
-        "question": "Which modal verb expresses obligation?",
+        "question": "What do you say when suggesting something?",
         "options": [
-          "Can",
-          "Might",
-          "Must",
-          "Should"
-        ],
-        "answer": 2
-      },
-      {
-        "question": "What does 'furnished' mean?",
-        "options": [
-          "With furniture included",
-          "Newly painted",
-          "Utilities included",
-          "Recently renovated"
+          "I suggest going out.",
+          "I go out yesterday.",
+          "I will went out.",
+          "I going out now."
         ],
         "answer": 0
+      },
+      {
+        "question": "What does 'reported speech' mean?",
+        "options": [
+          "Speaking directly",
+          "Asking questions",
+          "Reporting what someone said",
+          "Writing a message"
+        ],
+        "answer": 2
       }
     ]
   }

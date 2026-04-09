@@ -126,29 +126,39 @@ function renderVideos() {
   if (!el) return;
 
   if (!chapter.videos || !chapter.videos.length) {
-    el.innerHTML = `<div class="empty-state"><div class="empty-icon">📺</div><h3>No videos yet</h3><p>Videos will be added soon.</p></div>`;
+    el.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-icon">📺</div>
+        <h3>No videos yet</h3>
+        <p>Videos will be added soon.</p>
+      </div>`;
     return;
   }
 
   el.innerHTML = `
     <div class="videos-grid">
-      ${chapter.videos.map(v => `
+      ${chapter.videos.map(v => {
+    const embedUrl = convertToEmbed(v.url);
+
+    return `
         <div class="video-card">
           <div class="video-wrapper">
             <iframe 
-              src="${v.url}?rel=0&modestbranding=1" 
-              title="${escapeHtml(v.title)}"
+              src="${embedUrl}?rel=0&modestbranding=1"
+              title="${escapeHtml(v.title || 'Video')}"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
               allowfullscreen
               loading="lazy">
             </iframe>
           </div>
           <div class="video-info">
-            <div class="video-title">${escapeHtml(v.title)}</div>
+            <div class="video-title">${escapeHtml(v.title || 'Video')}</div>
           </div>
         </div>
-      `).join('')}
+        `;
+  }).join('')}
     </div>
+
     <div class="vocab-card" style="margin-top:20px;">
       <h3>💡 While Watching</h3>
       <div class="grammar-box">
@@ -157,6 +167,31 @@ function renderVideos() {
       </div>
     </div>
   `;
+}
+function convertToEmbed(url) {
+  try {
+    // youtu.be
+    if (url.includes("youtu.be")) {
+      const id = url.split("/").pop().split("?")[0];
+      return `https://www.youtube.com/embed/${id}`;
+    }
+
+    // watch?v=
+    if (url.includes("watch?v=")) {
+      const id = new URL(url).searchParams.get("v");
+      return `https://www.youtube.com/embed/${id}`;
+    }
+
+    // already embed
+    if (url.includes("/embed/")) {
+      return url;
+    }
+
+    return url;
+  } catch (e) {
+    console.error("Invalid video URL:", url);
+    return "";
+  }
 }
 
 // =========================================
@@ -296,9 +331,9 @@ function showQuizResult() {
   const pct = Math.round((quizScore / total) * 100);
   const emoji = pct === 100 ? '🏆' : pct >= 70 ? '🎉' : pct >= 40 ? '💪' : '📚';
   const msg = pct === 100 ? 'Perfect score! Outstanding!' :
-              pct >= 70 ? 'Great work! Keep it up!' :
-              pct >= 40 ? 'Good effort! Review and try again.' :
-              'Keep studying — you\'ll get there!';
+    pct >= 70 ? 'Great work! Keep it up!' :
+      pct >= 40 ? 'Good effort! Review and try again.' :
+        'Keep studying — you\'ll get there!';
 
   el.innerHTML = `
     <div class="quiz-progress-bar">
