@@ -1,0 +1,16 @@
+{
+  "playlists": {
+    "B1": [
+      {
+        "title": "Main Course",
+        "url": "https://youtube.com/playlist?list=PLhNRdHEdUQeyIjNRrwWnMU_iph8amkaJg&si=DIbx4V8KvWh1-nxS"
+      }
+    ],
+    "B2": [
+      {
+        "title": "Main Course",
+        "url": "https://youtube.com/playlist?list=PLhNRdHEdUQeynyOmJASMe_xVYg0YZHWyt&si=bTLnk_b8Nu2jjQxL"
+      }
+    ]
+  }
+}

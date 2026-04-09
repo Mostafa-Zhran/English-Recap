@@ -5,6 +5,7 @@
 'use strict';
 
 // --- State ---
+let playlists = {};
 let chapter = null;
 let currentQuizIndex = 0;
 let quizScore = 0;
@@ -39,10 +40,23 @@ async function loadChapter() {
   const id = parseInt(params.get('id') || localStorage.getItem('selectedChapterId'));
 
   try {
+    // Load chapters
     const res = await fetch('./data/chapters.json');
     if (!res.ok) throw new Error('Failed to load data');
     const chapters = await res.json();
     chapter = chapters.find(c => c.id === id);
+
+    // Load playlists config
+    try {
+      const configRes = await fetch('./data/config.json');
+      if (configRes.ok) {
+        const config = await configRes.json();
+        playlists = config.playlists || {};
+      }
+    } catch (configErr) {
+      // Config file is optional, continue without it
+      console.warn('Could not load config.json', configErr);
+    }
 
     if (!chapter) {
       showError('Chapter not found. Please go back and select a chapter.');

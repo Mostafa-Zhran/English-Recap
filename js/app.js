@@ -5,6 +5,7 @@
 'use strict';
 
 // --- State ---
+let playlists = {};
 let allChapters = [];
 let currentFilter = 'all';
 let searchQuery = '';
@@ -36,10 +37,26 @@ async function fetchChapters() {
     showSkeletons();
     // Simulate slight loading delay for UX
     await new Promise(r => setTimeout(r, 300));
+    
+    // Load chapters
     const res = await fetch('./data/chapters.json');
     if (!res.ok) throw new Error('Failed to load chapters');
     allChapters = await res.json();
+    
+    // Load playlists config
+    try {
+      const configRes = await fetch('./data/config.json');
+      if (configRes.ok) {
+        const config = await configRes.json();
+        playlists = config.playlists || {};
+      }
+    } catch (configErr) {
+      // Config file is optional, continue without it
+      console.warn('Could not load config.json', configErr);
+    }
+    
     renderChapters(allChapters);
+    renderPlaylistLinks();
     updateCount(allChapters.length);
   } catch (err) {
     chaptersGrid.innerHTML = `
@@ -126,6 +143,114 @@ function showSkeletons() {
 
 function updateCount(n) {
   if (chapterCount) chapterCount.textContent = n;
+}
+
+// =========================================
+//   RENDER PLAYLIST LINKS
+// =========================================
+function renderPlaylistLinks() {
+  const playlistGrid = document.getElementById('playlistGrid');
+  const playlistSection = document.getElementById('playlistSection');
+  if (!playlistGrid || !playlistSection) return;
+
+  // Clear existing content
+  playlistGrid.innerHTML = '';
+
+  const levels = ['B1', 'B2'];
+  let hasPlaylists = false;
+
+  levels.forEach(level => {
+    const levelPlaylists = playlists[level];
+    if (!levelPlaylists || !Array.isArray(levelPlaylists) || levelPlaylists.length === 0) return;
+
+    hasPlaylists = true;
+
+    // Create level column
+    const levelColumn = document.createElement('div');
+    levelColumn.className = 'playlist-level-column';
+    levelColumn.innerHTML = `
+      <div class="playlist-level-title">${level} Level</div>
+      <div class="playlist-level-list">
+        ${levelPlaylists.map((playlist, index) => {
+          if (!playlist.url || playlist.url.includes('YOUR_')) return '';
+          const embedUrl = convertPlaylistToEmbed(playlist.url);
+          return `
+            <div class="playlist-card-wrapper" data-level="${level}" data-index="${index}">
+              <a href="${playlist.url}" target="_blank" rel="noopener noreferrer" class="playlist-card">
+                <div class="playlist-card-icon">📺</div>
+                <div class="playlist-card-content">
+                  <div class="playlist-card-title">${escapeHtml(playlist.title || level)}</div>
+                  <div class="playlist-card-level">${level}</div>
+                </div>
+                <div class="playlist-card-arrow">→</div>
+              </a>
+              <div class="playlist-preview">
+                <iframe
+                  src="${embedUrl}"
+                  title="${escapeHtml(playlist.title || level)}"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  loading="lazy">
+                </iframe>
+                <div class="playlist-preview-overlay">
+                  <button class="btn-playlist-preview" onclick="event.stopPropagation(); window.open('${playlist.url}', '_blank')">
+                    ▶ Watch Full Playlist
+                  </button>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+
+    playlistGrid.appendChild(levelColumn);
+  });
+
+  // Hide section if no playlists configured
+  if (!hasPlaylists) {
+    playlistSection.style.display = 'none';
+  } else {
+    playlistSection.style.display = 'block';
+  }
+
+  // Setup hover listeners for preview
+  setupPlaylistPreview();
+}
+
+function convertPlaylistToEmbed(url) {
+  try {
+    // Extract playlist ID from URL
+    if (url.includes('list=')) {
+      const playlistId = new URL(url).searchParams.get('list');
+      return `https://www.youtube.com/embed/videoseries?list=${playlistId}`;
+    }
+    return url;
+  } catch (e) {
+    console.error('Invalid playlist URL:', url);
+    return '';
+  }
+}
+
+function setupPlaylistPreview() {
+  const wrappers = document.querySelectorAll('.playlist-card-wrapper');
+  wrappers.forEach(wrapper => {
+    const card = wrapper.querySelector('.playlist-card');
+    const preview = wrapper.querySelector('.playlist-preview');
+
+    if (card && preview) {
+      // Show preview on hover
+      card.addEventListener('mouseenter', () => {
+        preview.classList.add('active');
+      });
+
+      // Hide preview when leaving the wrapper
+      wrapper.addEventListener('mouseleave', () => {
+        preview.classList.remove('active');
+      });
+    }
+  });
 }
 
 // =========================================
@@ -240,3 +365,15 @@ function setupEventListeners() {
 window.openChapter = openChapter;
 window.toggleTheme = toggleTheme;
 window.showToast = showToast;
+
+// =========================================
+//   HELPERS
+// =========================================
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
