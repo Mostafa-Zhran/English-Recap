@@ -629,5 +629,337 @@
         "answer": 2
       }
     ]
-  }
+  },
+  {
+    "id": 7,
+    "title": "I have a lot to do today",
+    "level": "B1",
+    "icon": "🧹",
+    "color": "#2ECC71",
+    "description": "Learn the difference between household chores and errands, and how to talk about daily tasks and responsibilities.",
+    "summary": {
+      "vocabulary": [
+        "chore",
+        "errand",
+        "vacuum",
+        "dust",
+        "mop",
+        "scrub",
+        "organize",
+        "fold",
+        "pharmacy",
+        "bakery",
+        "butcher shop",
+        "dry cleaning",
+        "hair salon",
+        "auto repair shop",
+        "grocery shopping",
+        "take out the trash",
+        "make the bed",
+        "wash the dishes",
+        "clean the sink",
+        "wipe the counter",
+        "living room",
+        "kitchen",
+        "bedroom",
+        "bathroom",
+        "hall",
+        "outside",
+        "bank",
+        "gas station",
+        "mechanic"
+      ],
+      "grammar": "Use causative verbs like 'have something done' (e.g., 'I had my hair cut', 'I had my car repaired'). Use present continuous for ongoing tasks (e.g., 'I am cleaning the kitchen'). Use frequency adverbs (always, usually, sometimes, never) to describe habits."
+    },
+    "videos": [
+      {
+        "title": "Household Chores Vocabulary",
+        "url": "https://youtu.be/SesCepncmJ8?si=_FyBlTCQSz5L-D3z"
+      },{
+        "title": "Household Chores Vocabulary",
+        "url": "https://youtu.be/QghskZbK_30?si=oRIO3UIr6apCBbJT"
+      },
+      {
+        "title": "Running Errands in English",
+        "url": "https://youtu.be/4yVbm6WWiac?si=MGe_CHQMUMDtFcIl"
+      }
+    ],
+    "conversation": [
+      {
+        "speaker": "A",
+        "text": "What are you doing this weekend?"
+      },
+      {
+        "speaker": "B",
+        "text": "I have a lot of chores to do around the house. I need to clean the kitchen and organize the living room."
+      },
+      {
+        "speaker": "A",
+        "text": "Do you need to run any errands too?"
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, I need to go to the bank, pick up dry cleaning, and stop at the grocery store."
+      },
+      {
+        "speaker": "A",
+        "text": "That sounds like a busy weekend. Do you need any help?"
+      },
+      {
+        "speaker": "B",
+        "text": "That would be great! Maybe you could help me vacuum the living room?"
+      }
+    ],
+    "choresVsErrands": {
+      "title": "Chores vs Errands",
+      "subtitle": "Understanding the difference between household tasks and daily errands",
+      "chores": {
+        "livingRoom": {
+          "icon": "🛋️",
+          "title": "Living Room",
+          "tasks": [
+            "vacuum the floor",
+            "dust the furniture",
+            "clean the windows",
+            "organize books",
+            "wipe the table"
+          ]
+        },
+        "kitchen": {
+          "icon": "🍳",
+          "title": "Kitchen",
+          "tasks": [
+            "wash the dishes",
+            "clean the sink",
+            "wipe the counters",
+            "take out the trash",
+            "mop the floor",
+            "clean the fridge"
+          ]
+        },
+        "bedroom": {
+          "icon": "🛏️",
+          "title": "Bedroom",
+          "tasks": [
+            "make the bed",
+            "change the sheets",
+            "fold clothes",
+            "put away clothes",
+            "dust surfaces"
+          ]
+        },
+        "bathroom": {
+          "icon": "🚿",
+          "title": "Bathroom",
+          "tasks": [
+            "clean the toilet",
+            "clean the sink",
+            "scrub the shower",
+            "wipe the mirror",
+            "mop the floor",
+            "refill the toilet paper"
+          ]
+        },
+        "hall": {
+          "icon": "🚪",
+          "title": "Hall",
+          "tasks": [
+            "sweep the floor",
+            "organize shoes",
+            "clean the door"
+          ]
+        },
+        "outside": {
+          "icon": "🌳",
+          "title": "Outside",
+          "tasks": [
+            "wash the car",
+            "water the plants",
+            "sweep outside",
+            "take out garbage bins"
+          ]
+        }
+      },
+      "errands": {
+        "title": "Common Errands",
+        "items": [
+          "go to the bank",
+          "go to the pharmacy",
+          "go grocery shopping",
+          "stop at the gas station",
+          "drop off the car at the mechanic",
+          "pick up dry cleaning",
+          "get a haircut",
+          "buy groceries"
+        ]
+      },
+      "places": {
+        "title": "Places Related to Errands",
+        "items": [
+          "bakery",
+          "butcher shop",
+          "pharmacy",
+          "hair salon",
+          "auto repair shop"
+        ]
+      }
+    },
+    "quiz": [
+      {
+        "question": "What is the difference between a chore and an errand?",
+        "options": [
+          "Chores are outdoor tasks, errands are indoor tasks",
+          "Chores are household tasks, errands are tasks that require going out",
+          "Chores are fun, errands are boring",
+          "There is no difference"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Which of these is a chore?",
+        "options": [
+          "Go to the bank",
+          "Vacuum the floor",
+          "Pick up dry cleaning",
+          "Get a haircut"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Which sentence uses the causative correctly?",
+        "options": [
+          "I cut my hair yesterday",
+          "I had my hair cut yesterday",
+          "I had cut my hair yesterday",
+          "I have cut my hair yesterday"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Where would you go to buy fresh bread?",
+        "options": [
+          "Butcher shop",
+          "Bakery",
+          "Pharmacy",
+          "Auto repair shop"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What does 'run errands' mean?",
+        "options": [
+          "Go for a run",
+          "Do small daily tasks outside the home",
+          "Clean the house",
+          "Cook food"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+  "id": 8,
+  "title": "What’s the best way to get there?",
+  "level": "B1",
+  "icon": "🚗",
+  "color": "#4CAF50",
+  "description": "Learn how to rent a car, ask for directions, and talk about traffic conditions and car problems.",
+  "summary": {
+    "vocabulary": [
+      "rent a car",
+      "SUV",
+      "compact car",
+      "full-size car",
+      "luxury car",
+      "GPS",
+      "traffic light",
+      "intersection",
+      "highway",
+      "exit",
+      "traffic jam",
+      "rush hour",
+      "slippery road",
+      "flat tire",
+      "run out of gas",
+      "car won’t start"
+    ],
+    "grammar": "Use comparative forms with more/less (e.g., 'This car costs more'). Use reported speech with 'told to' and 'said to'. Use 'while + -ing' (e.g., 'Don’t text while driving')."
+  },
+  "videos": [
+    {
+      "title": "Renting a Car in English – Useful Phrases",
+      "url": "https://youtu.be/mKci2gErqJo?si=HGHyvV9BQ1Cg6b3b"
+    },
+    {
+      "title": "Giving Directions in English",
+      "url": "https://youtu.be/DPYJQSA-x50?si=sTXP4uuN1vRpGAmV"
+    }
+  ],
+  "conversation": [
+    {
+      "speaker": "A",
+      "text": "Hello. I’d like to rent a car."
+    },
+    {
+      "speaker": "B",
+      "text": "Sure. What kind of car would you like?"
+    },
+    {
+      "speaker": "A",
+      "text": "Do you have any SUVs?"
+    },
+    {
+      "speaker": "B",
+      "text": "I’m sorry. All our SUVs are rented at the moment."
+    },
+    {
+      "speaker": "A",
+      "text": "Okay. Do you have a full-size car?"
+    },
+    {
+      "speaker": "B",
+      "text": "Yes, we do. Would you like to add insurance?"
+    },
+    {
+      "speaker": "A",
+      "text": "No, thank you. I already have insurance."
+    },
+    {
+      "speaker": "B",
+      "text": "Great. Please sign here. Your car is in Lot A."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which car is usually cheaper?",
+      "options": [
+        "SUV",
+        "Luxury car",
+        "Compact car",
+        "Full-size car"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What should you do at a red traffic light?",
+      "options": [
+        "Turn left",
+        "Speed up",
+        "Stop",
+        "Park"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which sentence uses 'while + -ing' correctly?",
+      "options": [
+        "Don’t text while drive",
+        "Don’t text while driving",
+        "Don’t texting while driving",
+        "Don’t text while drove"
+      ],
+      "answer": 1
+    }
+  ]
+}
 ]

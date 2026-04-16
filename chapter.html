@@ -58,6 +58,9 @@
             <button class="sidebar-nav-item" data-tab="flashcards">
               <span class="s-icon">🃏</span> Flashcards
             </button>
+            <button class="sidebar-nav-item" data-tab="choresVsErrands" id="choresVsErrandsSidebar" style="display:none;">
+              <span class="s-icon">🧹</span> Chores vs Errands
+            </button>
           </div>
         </div>
 
@@ -94,6 +97,9 @@
           <button class="tab-btn" data-tab="flashcards" role="tab" aria-selected="false" aria-controls="flashcardsPanel">
             🃏 Flashcards
           </button>
+          <button class="tab-btn" data-tab="choresVsErrands" id="choresVsErrandsTab" role="tab" aria-selected="false" aria-controls="choresVsErrandsPanel" style="display:none;">
+            🧹 Chores vs Errands
+          </button>
         </div>
 
         <!-- TAB PANELS -->
@@ -122,6 +128,11 @@
         <!-- Flashcards -->
         <div class="tab-panel" id="flashcardsPanel" role="tabpanel" aria-labelledby="flashcards-tab">
           <div class="skeleton skeleton-card" style="height:200px;"></div>
+        </div>
+
+        <!-- Chores vs Errands -->
+        <div class="tab-panel" id="choresVsErrandsPanel" role="tabpanel" aria-labelledby="choresVsErrands-tab">
+          <div class="skeleton skeleton-card" style="height:300px;"></div>
         </div>
 
       </div><!-- /main content -->

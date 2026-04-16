@@ -27,13 +27,14 @@ d:\project\
     └── config.json     # Playlist URLs per level
 ```
 
-## Current Content (6 Chapters)
+## Current Content (7 Chapters)
 1. Nice to See You Again - Greetings, present perfect vs past simple
 2. Are You Ready for Your Guests? - Event planning, suggestions
 3. Have You Ever Been There? - Travel, present perfect with ever/never
 4. How is the dish prepared? - Restaurant English, passive voice
 5. Enjoy your flight! - Airport vocabulary, future progressive
 6. Now you can...! - Review and practice chapter
+7. Chores vs Errands - Household tasks and daily errands
 
 ## Chapter Data Structure
 Each chapter in chapters.json contains:
@@ -93,9 +94,22 @@ Playlists appear in a dedicated professional section on the home page, organized
 - **Tab System**: `switchTab(tabId)` handles both main tabs and sidebar sync
 - **TTS**: `speakText(text)` uses Web Speech API with en-US, rate 0.92
 - **YouTube Conversion**: `convertToEmbed(url)` handles youtu.be and watch?v= formats
+- **Playlist Embed**: `convertPlaylistToEmbed(url)` converts playlist URLs to embed format
 - **Quiz State**: currentQuizIndex, quizScore, quizAnswered tracked globally
 - **Toast Notifications**: `showToast(msg, type)` for user feedback
-- **Playlist Rendering**: `renderPlaylistLinks()` dynamically adds playlist buttons to filter bar
+- **Playlist Rendering**: `renderPlaylistLinks()` creates dedicated playlist section with cards
+- **Playlist Preview**: `setupPlaylistPreview()` handles hover-to-show embedded player
+- **Icon Styling**: Navbar logo uses PNG icon with premium gradient and shadow effects
+
+## Branding & Icons
+- **Favicon**: Uses `icons/Endlish-Recap.png` for browser tab icon (both index.html and chapter.html)
+- **Navbar Logo**: Uses the same PNG icon with premium styling:
+  - 42px x 42px size with 14px border radius
+  - Gradient background (white with transparency)
+  - Multi-layered shadows (ambient, colored, inset)
+  - Subtle border with hover enhancement
+  - Smooth cubic-bezier transitions
+  - Hover effect: scale (1.08x) + lift (-1px translateY) + stronger shadows
 
 ## Configuration
 To add YouTube playlist links for each level:

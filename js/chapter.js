@@ -69,6 +69,7 @@ async function loadChapter() {
     renderConversation();
     renderQuiz();
     renderFlashcards();
+    if (chapter.choresVsErrands) renderChoresVsErrands();
 
   } catch (err) {
     showError('Could not load chapter content.');
@@ -590,6 +591,88 @@ function showToast(msg) {
 }
 
 window.showToast = showToast;
+
+// =========================================
+//   RENDER: CHORES VS ERRANDS
+// =========================================
+function renderChoresVsErrands() {
+  const el = document.getElementById('choresVsErrandsPanel');
+  const sidebarBtn = document.getElementById('choresVsErrandsSidebar');
+  const tabBtn = document.getElementById('choresVsErrandsTab');
+
+  if (!el || !chapter.choresVsErrands) return;
+
+  // Show the sidebar and tab buttons
+  if (sidebarBtn) sidebarBtn.style.display = '';
+  if (tabBtn) tabBtn.style.display = '';
+
+  const data = chapter.choresVsErrands;
+
+  // Render chores by room
+  const choresHtml = Object.entries(data.chores).map(([key, room]) => `
+    <div class="chore-room-card">
+      <div class="chore-room-header">
+        <span class="chore-room-icon">${room.icon}</span>
+        <h4>${escapeHtml(room.title)}</h4>
+      </div>
+      <ul class="chore-tasks-list">
+        ${room.tasks.map(task => `
+          <li class="chore-task">
+            <span class="chore-bullet">•</span>
+            ${escapeHtml(task)}
+            <button class="tts-btn-mini" onclick="speakText('${escapeHtml(task)}')" title="Pronounce">🔊</button>
+          </li>
+        `).join('')}
+      </ul>
+    </div>
+  `).join('');
+
+  // Render errands
+  const errandsHtml = data.errands.items.map(item => `
+    <li class="errand-item">
+      <span class="errand-bullet">•</span>
+      ${escapeHtml(item)}
+      <button class="tts-btn-mini" onclick="speakText('${escapeHtml(item)}')" title="Pronounce">🔊</button>
+    </li>
+  `).join('');
+
+  // Render places
+  const placesHtml = data.places.items.map(item => `
+    <li class="place-item">
+      <span class="place-bullet">•</span>
+      ${escapeHtml(item)}
+      <button class="tts-btn-mini" onclick="speakText('${escapeHtml(item)}')" title="Pronounce">🔊</button>
+    </li>
+  `).join('');
+
+  el.innerHTML = `
+    <div class="chores-errands-section">
+      <div class="section-header">
+        <h2>${data.title}</h2>
+        <p class="section-subtitle">${data.subtitle}</p>
+      </div>
+
+      <div class="chores-grid">
+        <h3>🏠 Chores by Room</h3>
+        ${choresHtml}
+      </div>
+
+      <div class="errands-section">
+        <h3>🔹 Common Errands</h3>
+        <ul class="errands-list">
+          ${errandsHtml}
+        </ul>
+      </div>
+
+      <div class="places-section">
+        <h3>🔹 Places Related to Errands</h3>
+        <ul class="places-list">
+          ${placesHtml}
+        </ul>
+      </div>
+    </div>
+  `;
+}
 
 // =========================================
 //   HELPERS
