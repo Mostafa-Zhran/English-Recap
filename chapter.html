@@ -61,6 +61,9 @@
             <button class="sidebar-nav-item" data-tab="choresVsErrands" id="choresVsErrandsSidebar" style="display:none;">
               <span class="s-icon">🧹</span> Chores vs Errands
             </button>
+            <button class="sidebar-nav-item" data-tab="directions" id="directionsSidebar" style="display:none;">
+              <span class="s-icon">🧭</span> Directions
+            </button>
           </div>
         </div>
 
@@ -100,6 +103,9 @@
           <button class="tab-btn" data-tab="choresVsErrands" id="choresVsErrandsTab" role="tab" aria-selected="false" aria-controls="choresVsErrandsPanel" style="display:none;">
             🧹 Chores vs Errands
           </button>
+          <button class="tab-btn" data-tab="directions" id="directionsTab" role="tab" aria-selected="false" aria-controls="directionsPanel" style="display:none;">
+            🧭 Directions
+          </button>
         </div>
 
         <!-- TAB PANELS -->
@@ -132,6 +138,11 @@
 
         <!-- Chores vs Errands -->
         <div class="tab-panel" id="choresVsErrandsPanel" role="tabpanel" aria-labelledby="choresVsErrands-tab">
+          <div class="skeleton skeleton-card" style="height:300px;"></div>
+        </div>
+
+        <!-- Directions -->
+        <div class="tab-panel" id="directionsPanel" role="tabpanel" aria-labelledby="directions-tab">
           <div class="skeleton skeleton-card" style="height:300px;"></div>
         </div>
 

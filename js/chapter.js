@@ -70,6 +70,7 @@ async function loadChapter() {
     renderQuiz();
     renderFlashcards();
     if (chapter.choresVsErrands) renderChoresVsErrands();
+    if (chapter.directions) renderDirections();
 
   } catch (err) {
     showError('Could not load chapter content.');
@@ -669,6 +670,113 @@ function renderChoresVsErrands() {
         <ul class="places-list">
           ${placesHtml}
         </ul>
+      </div>
+    </div>
+  `;
+}
+
+// =========================================
+//   RENDER: DIRECTIONS
+// =========================================
+function renderDirections() {
+  const el = document.getElementById('directionsPanel');
+  const sidebarBtn = document.getElementById('directionsSidebar');
+  const tabBtn = document.getElementById('directionsTab');
+
+  if (!el || !chapter.directions) return;
+
+  // Show the sidebar and tab buttons
+  if (sidebarBtn) sidebarBtn.style.display = '';
+  if (tabBtn) tabBtn.style.display = '';
+
+  const data = chapter.directions;
+
+  // Render asking for directions
+  const askingHtml = data.askingForDirections.map(item => `
+    <li class="direction-item">
+      <span class="direction-bullet">•</span>
+      ${escapeHtml(item)}
+      <button class="tts-btn-mini" onclick="speakText('${escapeHtml(item)}')" title="Pronounce">🔊</button>
+    </li>
+  `).join('');
+
+  // Render giving directions
+  const givingHtml = data.givingDirections.map(item => `
+    <li class="direction-item">
+      <span class="direction-bullet">•</span>
+      ${escapeHtml(item)}
+      <button class="tts-btn-mini" onclick="speakText('${escapeHtml(item)}')" title="Pronounce">🔊</button>
+    </li>
+  `).join('');
+
+  // Render key vocabulary
+  const vocabHtml = data.keyVocabulary.map(item => `
+    <li class="vocab-item">
+      <span class="vocab-bullet">•</span>
+      ${escapeHtml(item)}
+      <button class="tts-btn-mini" onclick="speakText('${escapeHtml(item)}')" title="Pronounce">🔊</button>
+    </li>
+  `).join('');
+
+  // Render conversation example
+  const conversationHtml = data.conversationExample.map(item => `
+    <div class="direction-conversation-line">
+      <span class="speaker-label">${escapeHtml(item.speaker)}:</span>
+      <span class="speaker-text">${escapeHtml(item.text)}</span>
+      <button class="tts-btn-mini" onclick="speakText('${escapeHtml(item.text)}')" title="Pronounce">🔊</button>
+    </div>
+  `).join('');
+
+  // Render tips
+  const tipsHtml = data.tips.map(tip => `
+    <li class="tip-item">
+      <span class="tip-icon">💡</span>
+      ${escapeHtml(tip)}
+    </li>
+  `).join('');
+
+  el.innerHTML = `
+    <div class="directions-section">
+      <div class="section-header">
+        <h2>${data.title}</h2>
+        <p class="section-subtitle">${data.subtitle}</p>
+      </div>
+
+      <div class="directions-grid">
+        <div class="direction-card">
+          <h3>🗣️ Asking for Directions</h3>
+          <ul class="directions-list">
+            ${askingHtml}
+          </ul>
+        </div>
+
+        <div class="direction-card">
+          <h3>🧭 Giving Directions</h3>
+          <ul class="directions-list">
+            ${givingHtml}
+          </ul>
+        </div>
+
+        <div class="direction-card">
+          <h3>📚 Key Vocabulary</h3>
+          <ul class="directions-list">
+            ${vocabHtml}
+          </ul>
+        </div>
+
+        <div class="direction-card conversation-card">
+          <h3>💬 Conversation Example</h3>
+          <div class="direction-conversation">
+            ${conversationHtml}
+          </div>
+        </div>
+
+        <div class="direction-card tips-card">
+          <h3>✨ Tips</h3>
+          <ul class="tips-list">
+            ${tipsHtml}
+          </ul>
+        </div>
       </div>
     </div>
   `;

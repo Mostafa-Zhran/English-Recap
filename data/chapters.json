@@ -953,13 +953,72 @@
     {
       "question": "Which sentence uses 'while + -ing' correctly?",
       "options": [
-        "Don’t text while drive",
-        "Don’t text while driving",
-        "Don’t texting while driving",
-        "Don’t text while drove"
+        "Don't text while drive",
+        "Don't text while driving",
+        "Don't texting while driving",
+        "Don't text while drove"
       ],
       "answer": 1
     }
-  ]
+  ],
+  "directions": {
+    "title": "Directions",
+    "subtitle": "Learn how to ask for and give directions in English",
+    "askingForDirections": [
+      "Excuse me, how can I get to the bank?",
+      "Can you tell me the way to the station?",
+      "Where is the nearest pharmacy?",
+      "Is there a supermarket near here?",
+      "How do I get to the airport?",
+      "Could you show me on the map?",
+      "I'm looking for the library.",
+      "Which way is the museum?",
+      "How far is the train station?"
+    ],
+    "givingDirections": [
+      "Go straight ahead",
+      "Turn left",
+      "Turn right",
+      "Take the first street",
+      "Take the second street",
+      "Go past the bank",
+      "It is on the left",
+      "It is on the right",
+      "At the corner"
+    ],
+    "keyVocabulary": [
+      "intersection",
+      "traffic light",
+      "roundabout",
+      "next to",
+      "across from",
+      "near",
+      "far"
+    ],
+    "conversationExample": [
+      {
+        "speaker": "A",
+        "text": "Excuse me, how can I get to the hospital?"
+      },
+      {
+        "speaker": "B",
+        "text": "Go straight, then turn right at the traffic light."
+      },
+      {
+        "speaker": "A",
+        "text": "Is it far?"
+      },
+      {
+        "speaker": "B",
+        "text": "No, it is near. It is next to a pharmacy."
+      }
+    ],
+    "tips": [
+      "Start with 'Excuse me' when asking for directions.",
+      "Use landmarks like bank, school, or restaurant.",
+      "Listen carefully and repeat if needed.",
+      "Use simple sentences when giving directions."
+    ]
+  }
 }
 ]
