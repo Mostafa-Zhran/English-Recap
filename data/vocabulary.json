@@ -1,0 +1,181 @@
+{
+  "vocabulary": [
+    {
+  "word": "co-worker",
+  "definition": "A person you work with at the same job or workplace",
+  "example": "My co-worker helped me finish the project on time."
+},
+{
+  "word": "overwhelming",
+  "definition": "Very strong or intense, making you feel unable to handle it",
+  "example": "The amount of homework was overwhelming."
+},
+{
+  "word": "glamorous product",
+  "definition": "A product that looks very attractive, stylish, and luxurious",
+  "example": "The brand launched a glamorous product that caught everyone's attention."
+},
+{
+  "word": "hiking",
+  "definition": "The activity of walking long distances in nature, usually on trails or in the mountains",
+  "example": "We went hiking in the mountains last weekend."
+},
+{
+  "word": "nerve-wracking",
+  "definition": "Making you feel very nervous or anxious",
+  "example": "Taking the final exam was pretty nerve-wracking."
+},
+{
+
+  "word": "hesitate",
+  "definition": "To pause or wait before doing something because you feel unsure",
+  "example": "She hesitated before answering the question."
+},
+{
+  "word": "completely lost",
+  "definition": "Very confused and not understanding what is happening",
+  "example": "I was completely lost during the lecture."
+},
+{
+  "word": "figuring",
+  "definition": "Trying to understand or solve something",
+  "example": "He is figuring out how to fix the problem."
+},{
+  "word": "mature",
+  "definition": "Behaving in a responsible and sensible way, like an adult",
+  "example": "She gave a mature response to the situation."
+},{
+  "word": "elementary school",
+  "definition": "A school for young children, usually the first years of formal education",
+  "example": "He started learning English in elementary school."
+},{
+  "word": "forward momentum",
+  "definition": "Progress or movement ahead toward a goal",
+  "example": "The team kept its forward momentum despite challenges."
+},{
+  "word": "genuinely",
+  "definition": "In a sincere and honest way",
+  "example": "She was genuinely happy to see her friend."
+},{
+  "word": "acquaintance",
+  "definition": "A person you know but not very well",
+  "example": "He is just an acquaintance, not a close friend."
+},{
+  "word": "anniversary",
+  "definition": "A date when you remember or celebrate an important event that happened in a previous year",
+  "example": "They celebrated their wedding anniversary yesterday."
+},{
+  "word": "pick up / drop off",
+  "definition": "To pick someone or something up means to collect them, while to drop someone or something off means to take them somewhere and leave them there",
+  "example": "I will pick you up from the airport and drop you off at your hotel."
+},{
+  "word": "put up / take down",
+  "definition": "To put something up means to place or fix it in position, while to take something down means to remove it",
+  "example": "They put up decorations for the party and took them down the next day."
+},{
+  "word": "boroughs or districts",
+  "definition": "Different parts or areas of a city that are officially divided for administration",
+  "example": "New York City has five boroughs, each with its own character."
+},
+    {
+      "word": "chore",
+      "definition": "A regular task or piece of work that needs to be done, especially in a home",
+      "example": "I have many chores to do this weekend."
+    },
+    {
+      "word": "errand",
+      "definition": "A short trip to do something for someone, such as delivering or getting something",
+      "example": "I need to run some errands this afternoon."
+    },
+    {
+      "word": "vacuum",
+      "definition": "To clean a floor or carpet using a vacuum cleaner",
+      "example": "Please vacuum the living room."
+    },
+    {
+      "word": "mop",
+      "definition": "To clean a floor using a mop",
+      "example": "She mopped the kitchen floor."
+    },
+    {
+      "word": "scrub",
+      "definition": "To rub something hard in order to clean it",
+      "example": "Scrub the sink with soap."
+    },
+    {
+      "word": "intersection",
+      "definition": "A place where two or more roads meet or cross each other",
+      "example": "Turn left at the intersection."
+    },
+    {
+      "word": "roundabout",
+      "definition": "A circular road junction where traffic flows in one direction around a central island",
+      "example": "Take the second exit at the roundabout."
+    },
+    {
+      "word": "landmark",
+      "definition": "A recognizable object or feature that helps you know where you are",
+      "example": "The church is a famous landmark in the city."
+    },
+    {
+      "word": "rent",
+      "definition": "To pay money to use something for a short time",
+      "example": "I want to rent a car for the weekend."
+    },
+    {
+      "word": "insurance",
+      "definition": "An agreement where a company promises to pay for loss or damage",
+      "example": "Do you have car insurance?"
+    },
+    {
+      "word": "traffic jam",
+      "definition": "A long line of vehicles that cannot move or move very slowly",
+      "example": "We were stuck in a traffic jam for an hour."
+    },
+    {
+      "word": "rush hour",
+      "definition": "The time of day when traffic is very heavy because people are going to or from work",
+      "example": "Avoid driving during rush hour."
+    },
+    {
+      "word": "flat tire",
+      "definition": "A tire that has lost all its air",
+      "example": "I have a flat tire and need to change it."
+    },
+    {
+      "word": "GPS",
+      "definition": "Global Positioning System - a system that shows your location and helps you find directions",
+      "example": "Use the GPS to find the restaurant."
+    },
+    {
+      "word": "suggestion",
+      "definition": "An idea or plan that is offered for consideration",
+      "example": "I have a suggestion for the party."
+    },
+    {
+      "word": "appointment",
+      "definition": "A formal arrangement to meet someone at a particular time",
+      "example": "I have a doctor's appointment tomorrow."
+    },
+    {
+      "word": "reservation",
+      "definition": "An arrangement to have something kept for you, such as a table at a restaurant",
+      "example": "I made a reservation for dinner."
+    },
+    {
+      "word": "vacation",
+      "definition": "A period of time spent away from work or school for travel or relaxation",
+      "example": "We are going on vacation next month."
+    },
+    {
+      "word": "experience",
+      "definition": "Something that happens to you that affects how you feel or think",
+      "example": "It was a wonderful experience."
+    },
+    {
+      "word": "announcement",
+      "definition": "A public or formal statement about something",
+      "example": "The train announcement said the next train is delayed."
+    }
+  ]
+}

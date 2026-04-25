@@ -1388,6 +1388,243 @@ ul { list-style: none; }
 }
 
 /* =========================================
+   VIDEOS SECTION
+   ========================================= */
+.videos-section {
+  margin-bottom: 48px;
+}
+
+.videos-header {
+  margin-bottom: 24px;
+}
+
+.videos-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 8px;
+}
+
+.videos-subtitle {
+  font-size: 0.95rem;
+  color: var(--gray-500);
+}
+
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.video-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--gray-100);
+  transition: var(--transition);
+}
+
+.video-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(10, 102, 194, 0.15);
+}
+
+.video-thumbnail {
+  position: relative;
+  padding-bottom: 56.25%;
+  background: var(--gray-100);
+  overflow: hidden;
+}
+
+.video-thumbnail iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-content {
+  padding: 20px;
+}
+
+.video-category {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--primary-light);
+  color: var(--primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.video-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--gray-900);
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.video-description {
+  font-size: 0.9rem;
+  color: var(--gray-600);
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.video-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: var(--primary);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.video-link-btn:hover {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+}
+
+.video-link-btn .arrow {
+  transition: transform 0.2s ease;
+}
+
+.video-link-btn:hover .arrow {
+  transform: translateX(3px);
+}
+
+@media (max-width: 640px) {
+  .videos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .video-content {
+    padding: 16px;
+  }
+
+  .video-title {
+    font-size: 1rem;
+  }
+}
+
+/* =========================================
+   VOCABULARY SECTION
+   ========================================= */
+.vocabulary-section {
+  margin-bottom: 48px;
+}
+
+.vocabulary-header {
+  margin-bottom: 24px;
+}
+
+.vocabulary-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 8px;
+}
+
+.vocabulary-subtitle {
+  font-size: 0.95rem;
+  color: var(--gray-500);
+}
+
+.vocabulary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.vocab-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--gray-100);
+  transition: var(--transition);
+  position: relative;
+  min-height: 140px;
+}
+
+.vocab-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(10, 102, 194, 0.15);
+}
+
+.vocab-word {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 12px;
+  text-transform: capitalize;
+}
+
+.vocab-definition {
+  font-size: 0.95rem;
+  color: var(--gray-700);
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.vocab-example {
+  font-size: 0.85rem;
+  color: var(--gray-500);
+  font-style: italic;
+  line-height: 1.4;
+  padding: 8px 12px;
+  background: var(--gray-50);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--primary);
+}
+
+.vocab-tts-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: var(--primary-light);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: var(--transition);
+  opacity: 0.7;
+}
+
+.vocab-tts-btn:hover {
+  opacity: 1;
+  background: var(--primary);
+  transform: scale(1.1);
+}
+
+@media (max-width: 640px) {
+  .vocabulary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vocab-card {
+    padding: 16px;
+  }
+
+  .vocab-word {
+    font-size: 1.1rem;
+  }
+}
+
+/* =========================================
    DIRECTIONS SECTION
    ========================================= */
 .directions-section {

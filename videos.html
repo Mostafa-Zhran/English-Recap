@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="English Leap — Recommended YouTube videos to improve your English listening and speaking skills." />
+  <title>Recommended Videos - English Leap</title>
+  <link rel="icon" href="icons/Endlish-Recap.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ======= NAVBAR ======= -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="English Leap Home">
+        <img src="icons/Endlish-Recap.png" alt="English Leap" class="logo-icon" />
+        <span>English <em>Leap</em></span>
+      </a>
+      <div class="nav-actions">
+        <a href="vocabulary.html" class="btn-icon" aria-label="Vocabulary" title="Vocabulary">📖</a>
+        <button class="btn-icon" id="darkToggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======= HERO ======= -->
+  <header class="hero" role="banner">
+    <div class="hero-badge">📺 Recommended Videos</div>
+    <h1>Watch & <em>Learn</em></h1>
+    <p>Curated YouTube videos to improve your English listening, speaking, and pronunciation skills.</p>
+  </header>
+
+  <!-- ======= MAIN CONTENT ======= -->
+  <main class="container" role="main">
+
+    <!-- Videos Section -->
+    <div class="videos-section" id="videosSection" role="region" aria-label="Recommended Videos">
+      <div class="videos-header">
+        <h2>📺 All Recommended Videos</h2>
+        <p class="videos-subtitle">Click on a video to watch it on YouTube</p>
+      </div>
+      <div class="videos-grid" id="videosGrid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer" role="contentinfo">
+    <p>Made by &nbsp;|&nbsp; <strong>Mostafa Zahran</strong> &nbsp;|&nbsp;  with ❤️ for English learners &nbsp;|&nbsp; <strong>English Leap</strong> &nbsp;|&nbsp; B1 Level Course</p>
+  </footer>
+
+  <!-- ======= TOAST ======= -->
+  <div id="toastContainer" aria-live="polite"></div>
+
+  <script src="js/videos.js"></script>
+</body>
+
+</html>
