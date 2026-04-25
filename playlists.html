@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="English Leap — Vocabulary page with words, definitions, and examples to help you remember important terms." />
-  <title>Vocabulary - English Leap</title>
+    content="English Leap — Recommended YouTube playlists to improve your English skills." />
+  <title>Playlists - English Leap</title>
   <link rel="icon" href="icons/Endlish-Recap.png" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -21,8 +21,8 @@
         <span>English <em>Leap</em></span>
       </a>
       <div class="nav-actions">
+        <a href="vocabulary.html" class="btn-icon" aria-label="Vocabulary" title="Vocabulary">📖</a>
         <a href="videos.html" class="btn-icon" aria-label="Videos" title="Videos">📺</a>
-        <a href="playlists.html" class="btn-icon" aria-label="Playlists" title="Playlists">🎵</a>
         <button class="btn-icon" id="darkToggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
       </div>
     </div>
@@ -30,21 +30,21 @@
 
   <!-- ======= HERO ======= -->
   <header class="hero" role="banner">
-    <div class="hero-badge">📖 Vocabulary</div>
-    <h1>New Words to <em>Remember</em></h1>
-    <p>Simple definitions and examples to help you master important vocabulary from your lessons.</p>
+    <div class="hero-badge">🎵 Recommended Playlists</div>
+    <h1>Curated <em>Playlists</em></h1>
+    <p>Hand-picked YouTube playlists to help you improve your English skills systematically.</p>
   </header>
 
   <!-- ======= MAIN CONTENT ======= -->
   <main class="container" role="main">
 
-    <!-- Vocabulary Section -->
-    <div class="vocabulary-section" id="vocabularySection" role="region" aria-label="Vocabulary Words">
-      <div class="vocabulary-header">
-        <h2>📖 All Vocabulary Words</h2>
-        <p class="vocabulary-subtitle">Click the speaker icon to hear the pronunciation</p>
+    <!-- Playlists Section -->
+    <div class="playlists-section" id="playlistsSection" role="region" aria-label="Recommended Playlists">
+      <div class="playlists-header">
+        <h2>🎵 All Recommended Playlists</h2>
+        <p class="playlists-subtitle">Click on a playlist to watch it on YouTube</p>
       </div>
-      <div class="vocabulary-grid" id="vocabularyGrid">
+      <div class="playlists-grid" id="playlistsGrid">
         <!-- Populated by JS -->
       </div>
     </div>
@@ -59,7 +59,7 @@
   <!-- ======= TOAST ======= -->
   <div id="toastContainer" aria-live="polite"></div>
 
-  <script src="js/vocabulary.js"></script>
+  <script src="js/playlists.js"></script>
 </body>
 
 </html>

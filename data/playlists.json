@@ -1,0 +1,60 @@
+{
+  "playlists": [
+    {
+      "title": "English Conversation Practice",
+      "description": "A collection of conversation videos to practice everyday English speaking.",
+      "url": "https://youtube.com/playlist?list=PLOCvbe7RB9faAmKDaN2WfhRW8p0C3EZnL&si=xnzWV7D0TEVOsL01",
+      "category": "Conversation",
+      "videoCount": 25
+    },
+    {
+      "title": "English Listening Practice",
+      "description": "Improve your English listening skills with these curated listening exercises.",
+      "url": "https://www.youtube.com/playlist?list=PL4RJ1R9vq1X7qJ7xKJxVJxVJxVJxVJxVJx",
+      "category": "Listening",
+      "videoCount": 30
+    },
+    {
+      "title": "English Vocabulary Builder",
+      "description": "Expand your vocabulary with these word-focused lessons and examples.",
+      "url": "https://www.youtube.com/playlist?list=PL4RJ1R9vq1X7qJ7xKJxVJxVJxVJxVJxVJx",
+      "category": "Vocabulary",
+      "videoCount": 40
+    },
+    {
+      "title": "English Grammar Lessons",
+      "description": "Master English grammar rules with these comprehensive lessons.",
+      "url": "https://www.youtube.com/playlist?list=PL4RJ1R9vq1X7qJ7xKJxVJxVJxVJxVJxVJx",
+      "category": "Grammar",
+      "videoCount": 35
+    },
+    {
+      "title": "English Pronunciation Guide",
+      "description": "Learn correct pronunciation of English words and sounds.",
+      "url": "https://www.youtube.com/playlist?list=PL4RJ1R9vq1X7qJ7xKJxVJxVJxVJxVJxVJx",
+      "category": "Pronunciation",
+      "videoCount": 20
+    },
+    {
+      "title": "Business English",
+      "description": "Professional English for workplace and business communication.",
+      "url": "https://www.youtube.com/playlist?list=PL4RJ1R9vq1X7qJ7xKJxVJxVJxVJxVJxVJx",
+      "category": "Business",
+      "videoCount": 15
+    },
+    {
+      "title": "Travel English",
+      "description": "Essential English phrases and vocabulary for traveling.",
+      "url": "https://www.youtube.com/playlist?list=PL4RJ1R9vq1X7qJ7xKJxVJxVJxVJxVJxVJx",
+      "category": "Travel",
+      "videoCount": 18
+    },
+    {
+      "title": "Daily English Phrases",
+      "description": "Common phrases used in everyday English conversations.",
+      "url": "https://www.youtube.com/playlist?list=PL4RJ1R9vq1X7qJ7xKJxVJxVJxVJxVJxVJx",
+      "category": "Speaking",
+      "videoCount": 22
+    }
+  ]
+}

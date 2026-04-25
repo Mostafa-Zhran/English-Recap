@@ -1,82 +1,115 @@
 {
   "vocabulary": [
     {
-  "word": "co-worker",
-  "definition": "A person you work with at the same job or workplace",
-  "example": "My co-worker helped me finish the project on time."
-},
-{
-  "word": "overwhelming",
-  "definition": "Very strong or intense, making you feel unable to handle it",
-  "example": "The amount of homework was overwhelming."
-},
-{
-  "word": "glamorous product",
-  "definition": "A product that looks very attractive, stylish, and luxurious",
-  "example": "The brand launched a glamorous product that caught everyone's attention."
-},
-{
-  "word": "hiking",
-  "definition": "The activity of walking long distances in nature, usually on trails or in the mountains",
-  "example": "We went hiking in the mountains last weekend."
-},
-{
-  "word": "nerve-wracking",
-  "definition": "Making you feel very nervous or anxious",
-  "example": "Taking the final exam was pretty nerve-wracking."
-},
-{
-
-  "word": "hesitate",
-  "definition": "To pause or wait before doing something because you feel unsure",
-  "example": "She hesitated before answering the question."
-},
-{
-  "word": "completely lost",
-  "definition": "Very confused and not understanding what is happening",
-  "example": "I was completely lost during the lecture."
-},
-{
-  "word": "figuring",
-  "definition": "Trying to understand or solve something",
-  "example": "He is figuring out how to fix the problem."
-},{
-  "word": "mature",
-  "definition": "Behaving in a responsible and sensible way, like an adult",
-  "example": "She gave a mature response to the situation."
-},{
-  "word": "elementary school",
-  "definition": "A school for young children, usually the first years of formal education",
-  "example": "He started learning English in elementary school."
-},{
-  "word": "forward momentum",
-  "definition": "Progress or movement ahead toward a goal",
-  "example": "The team kept its forward momentum despite challenges."
-},{
-  "word": "genuinely",
-  "definition": "In a sincere and honest way",
-  "example": "She was genuinely happy to see her friend."
-},{
-  "word": "acquaintance",
-  "definition": "A person you know but not very well",
-  "example": "He is just an acquaintance, not a close friend."
-},{
-  "word": "anniversary",
-  "definition": "A date when you remember or celebrate an important event that happened in a previous year",
-  "example": "They celebrated their wedding anniversary yesterday."
-},{
-  "word": "pick up / drop off",
-  "definition": "To pick someone or something up means to collect them, while to drop someone or something off means to take them somewhere and leave them there",
-  "example": "I will pick you up from the airport and drop you off at your hotel."
-},{
-  "word": "put up / take down",
-  "definition": "To put something up means to place or fix it in position, while to take something down means to remove it",
-  "example": "They put up decorations for the party and took them down the next day."
-},{
-  "word": "boroughs or districts",
-  "definition": "Different parts or areas of a city that are officially divided for administration",
-  "example": "New York City has five boroughs, each with its own character."
-},
+      "word": "co-worker",
+      "definition": "A person you work with at the same job or workplace",
+      "example": "My co-worker helped me finish the project on time."
+    },
+    {
+      "word": "overwhelming",
+      "definition": "Very strong or intense, making you feel unable to handle it",
+      "example": "The amount of homework was overwhelming."
+    },
+    {
+      "word": "glamorous product",
+      "definition": "A product that looks very attractive, stylish, and luxurious",
+      "example": "The brand launched a glamorous product that caught everyone's attention."
+    },
+    {
+      "word": "hiking",
+      "definition": "The activity of walking long distances in nature, usually on trails or in the mountains",
+      "example": "We went hiking in the mountains last weekend."
+    },
+    {
+      "word": "nerve-wracking",
+      "definition": "Making you feel very nervous or anxious",
+      "example": "Taking the final exam was pretty nerve-wracking."
+    },
+    {
+      "word": "hesitate",
+      "definition": "To pause or wait before doing something because you feel unsure",
+      "example": "She hesitated before answering the question."
+    },
+    {
+      "word": "completely lost",
+      "definition": "Very confused and not understanding what is happening",
+      "example": "I was completely lost during the lecture."
+    },
+    {
+      "word": "figuring",
+      "definition": "Trying to understand or solve something",
+      "example": "He is figuring out how to fix the problem."
+    },
+    {
+      "word": "mature",
+      "definition": "Behaving in a responsible and sensible way, like an adult",
+      "example": "She gave a mature response to the situation."
+    },
+    {
+      "word": "elementary school",
+      "definition": "A school for young children, usually the first years of formal education",
+      "example": "He started learning English in elementary school."
+    },
+    {
+      "word": "forward momentum",
+      "definition": "Progress or movement ahead toward a goal",
+      "example": "The team kept its forward momentum despite challenges."
+    },
+    {
+      "word": "genuinely",
+      "definition": "In a sincere and honest way",
+      "example": "She was genuinely happy to see her friend."
+    },
+    {
+      "word": "acquaintance",
+      "definition": "A person you know but not very well",
+      "example": "He is just an acquaintance, not a close friend."
+    },
+    {
+      "word": "anniversary",
+      "definition": "A date when you remember or celebrate an important event that happened in a previous year",
+      "example": "They celebrated their wedding anniversary yesterday."
+    },
+    {
+      "word": "pick up / drop off",
+      "definition": "To pick someone or something up means to collect them, while to drop someone or something off means to take them somewhere and leave them there",
+      "example": "I will pick you up from the airport and drop you off at your hotel."
+    },
+    {
+      "word": "put up / take down",
+      "definition": "To put something up means to place or fix it in position, while to take something down means to remove it",
+      "example": "They put up decorations for the party and took them down the next day."
+    },
+    {
+      "word": "boroughs or districts",
+      "definition": "Different parts or areas of a city that are officially divided for administration",
+      "example": "New York City has five boroughs, each with its own character."
+    },
+    {
+      "word": "staycation",
+      "definition": "A holiday spent at home or nearby instead of traveling far away",
+      "example": "We decided to have a staycation and explore our city."
+    },
+    {
+      "word": "Colosseum",
+      "definition": "An ancient large amphitheater in Rome where people watched shows and fights",
+      "example": "The Colosseum is one of the most famous landmarks in Italy."
+    },
+    {
+      "word": "packing a suitcase",
+      "definition": "Putting clothes and other items into a bag for travel",
+      "example": "She is packing a suitcase for her trip tomorrow."
+    },
+    {
+      "word": "accommodation",
+      "definition": "A place where you stay or live, especially when traveling",
+      "example": "We booked our accommodation before arriving at the city."
+    },  
+    {
+      "word": "on a plane / on a train / in a car / in a taxi",
+      "definition": "We use 'on' for public transport (plane, train, bus) and 'in' for smaller private vehicles (car, taxi)",
+      "example": "She is on a plane, on a train, on a bus, but in a car and in a taxi."
+    },
     {
       "word": "chore",
       "definition": "A regular task or piece of work that needs to be done, especially in a home",
