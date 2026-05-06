@@ -1271,6 +1271,34 @@ ul { list-style: none; }
   .playlist-header h2 { font-size: 1.25rem; }
   .playlist-level-column { padding: 16px; }
   .playlist-preview { display: none; }
+
+  /* Mobile navbar fixes */
+  .nav-actions {
+    gap: 8px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    max-width: calc(100vw - 180px);
+  }
+  .nav-actions::-webkit-scrollbar {
+    display: none;
+  }
+  .nav-logo {
+    flex-shrink: 0;
+  }
+  .nav-logo span {
+    font-size: 1rem;
+  }
+  .nav-logo .logo-icon {
+    width: 36px;
+    height: 36px;
+  }
+  .btn-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
 }
 
 /* =========================================
