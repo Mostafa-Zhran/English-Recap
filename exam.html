@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="English Leap — Recommended YouTube videos to improve your English listening and speaking skills." />
-  <title>Recommended Videos - English Leap</title>
+    content="English Leap — Listening passages exam with fill-in-the-blank questions." />
+  <title>Exam - English Leap</title>
   <link rel="icon" href="icons/Endlish-Recap.png" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -22,8 +22,8 @@
       </a>
       <div class="nav-actions">
         <a href="vocabulary.html" class="btn-icon" aria-label="Vocabulary" title="Vocabulary">📖</a>
+        <a href="videos.html" class="btn-icon" aria-label="Videos" title="Videos">📺</a>
         <a href="playlists.html" class="btn-icon" aria-label="Playlists" title="Playlists">🎵</a>
-        <a href="exam.html" class="btn-icon" aria-label="Exam" title="Exam">📝</a>
         <button class="btn-icon" id="darkToggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
       </div>
     </div>
@@ -31,21 +31,36 @@
 
   <!-- ======= HERO ======= -->
   <header class="hero" role="banner">
-    <div class="hero-badge">📺 Recommended Videos</div>
-    <h1>Watch & <em>Learn</em></h1>
-    <p>Curated YouTube videos to improve your English listening, speaking, and pronunciation skills.</p>
+    <div class="hero-badge">🎧 Listening Exam</div>
+    <h1>Fill in the <em>Blank</em></h1>
+    <p>Test your listening comprehension by filling in the missing words from the passages.</p>
   </header>
 
   <!-- ======= MAIN CONTENT ======= -->
   <main class="container" role="main">
 
-    <!-- Videos Section -->
-    <div class="videos-section" id="videosSection" role="region" aria-label="Recommended Videos">
-      <div class="videos-header">
-        <h2>📺 All Recommended Videos</h2>
-        <p class="videos-subtitle">Click on a video to watch it on YouTube</p>
+    <!-- Exam Controls -->
+    <div class="exam-controls">
+      <button class="btn btn-primary" id="checkAnswersBtn" onclick="checkAllAnswers()">Check Answers</button>
+      <button class="btn btn-secondary" id="showScriptsBtn" onclick="toggleScripts()">Show Scripts</button>
+      <button class="btn btn-secondary" id="resetBtn" onclick="resetExam()">Reset</button>
+    </div>
+
+    <!-- Exam Score -->
+    <div class="exam-score" id="examScore" style="display:none;">
+      <span class="score-label">Score:</span>
+      <span class="score-value" id="scoreValue">0</span>
+      <span class="score-total">/</span>
+      <span class="score-total" id="scoreTotal">0</span>
+    </div>
+
+    <!-- Exam Section -->
+    <div class="exam-section" id="examSection" role="region" aria-label="Exam Questions">
+      <div class="exam-header">
+        <h2>🎧 Listening Passages</h2>
+        <p class="exam-subtitle">Fill in the blanks with the correct words</p>
       </div>
-      <div class="videos-grid" id="videosGrid">
+      <div class="exam-grid" id="examGrid">
         <!-- Populated by JS -->
       </div>
     </div>
@@ -60,7 +75,7 @@
   <!-- ======= TOAST ======= -->
   <div id="toastContainer" aria-live="polite"></div>
 
-  <script src="js/videos.js"></script>
+  <script src="js/exam.js"></script>
 </body>
 
 </html>

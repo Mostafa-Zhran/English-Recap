@@ -128,26 +128,6 @@ function convertPlaylistToEmbed(url) {
   }
 }
 
-function setupPlaylistPreview() {
-  const wrappers = document.querySelectorAll('.playlist-card-wrapper');
-  wrappers.forEach(wrapper => {
-    const card = wrapper.querySelector('.playlist-card');
-    const preview = wrapper.querySelector('.playlist-preview');
-
-    if (card && preview) {
-      // Show preview on hover
-      card.addEventListener('mouseenter', () => {
-        preview.classList.add('active');
-      });
-
-      // Hide preview when leaving the wrapper
-      wrapper.addEventListener('mouseleave', () => {
-        preview.classList.remove('active');
-      });
-    }
-  });
-}
-
 // =========================================
 //   DARK MODE
 // =========================================

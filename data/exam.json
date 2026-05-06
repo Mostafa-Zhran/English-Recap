@@ -1,0 +1,690 @@
+{
+  "exam": {
+    "title": "English Exam",
+    "description": "Test your English skills with listening passages and multiple choice questions.",
+    "sections": [
+      {
+        "id": 1,
+        "title": "Airport",
+        "passage": "I arrived at the airport early. I went to the check-in counter and got my ______ pass. Then I checked my bag and went to the security area. Finally, I waited at the ______ for my flight.",
+        "answers": ["boarding", "gate"],
+        "script": "I arrived at the airport early. I went to the check-in counter and got my boarding pass. Then I checked my bag and went to the security area. Finally, I waited at the gate for my flight."
+      },
+      {
+        "id": 2,
+        "title": "Flight",
+        "passage": "The flight was delayed for one hour. We stayed at the gate and listened to the ______. When boarding started, I found my seat and put my bag in the overhead ______.",
+        "answers": ["announcement", "bin"],
+        "script": "The flight was delayed for one hour. We stayed at the gate and listened to the announcement. When boarding started, I found my seat and put my bag in the overhead bin."
+      },
+      {
+        "id": 3,
+        "title": "Hotel Visit",
+        "passage": "I arrived at the hotel in the afternoon. The ______ helped me check in and gave me my room key. He also gave me a city map and some travel ______.",
+        "answers": ["concierge", "brochures"],
+        "script": "I arrived at the hotel in the afternoon. The concierge helped me check in and gave me my room key. He also gave me a city map and some travel brochures."
+      },
+      {
+        "id": 4,
+        "title": "Restaurant Order",
+        "passage": "We went to a restaurant for dinner. I ordered an ______ as a starter and then a main course. The food was delicious, and the ______ was excellent.",
+        "answers": ["appetizer", "service"],
+        "script": "We went to a restaurant for dinner. I ordered an appetizer as a starter and then a main course. The food was delicious, and the service was excellent."
+      },
+      {
+        "id": 5,
+        "title": "Food Complaint",
+        "passage": "The food was not good. The chicken was under______ and the soup was too salty. I called the waiter and asked him to take it ______.",
+        "answers": ["cooked", "back"],
+        "script": "The food was not good. The chicken was undercooked and the soup was too salty. I called the waiter and asked him to take it back."
+      },
+      {
+        "id": 6,
+        "title": "Travel Experience",
+        "passage": "Last summer, I went on a ______ to the Caribbean. We visited many islands and enjoyed sightseeing. It was one of the best ______ I've ever had.",
+        "answers": ["cruise", "vacations"],
+        "script": "Last summer, I went on a cruise to the Caribbean. We visited many islands and enjoyed sightseeing. It was one of the best vacations I've ever had."
+      },
+      {
+        "id": 7,
+        "title": "Asking for Directions",
+        "passage": "I got lost in the city center. I asked someone for ______ to the museum. They showed me the way and gave me a helpful ______.",
+        "answers": ["directions", "map"],
+        "script": "I got lost in the city center. I asked someone for directions to the museum. They showed me the way and gave me a helpful map."
+      },
+      {
+        "id": 8,
+        "title": "Work Project",
+        "passage": "We are working on a big project at the office. The manager asked for a status ______ every week. We must finish everything before the ______.",
+        "answers": ["report", "deadline"],
+        "script": "We are working on a big project at the office. The manager asked for a status report every week. We must finish everything before the deadline."
+      },
+      {
+        "id": 9,
+        "title": "Event Planning",
+        "passage": "We are planning a company event. We need to make a ______ for the guests and book a restaurant. I also need to check the ______ for available dates.",
+        "answers": ["reservation", "schedule"],
+        "script": "We are planning a company event. We need to make a reservation for the guests and book a restaurant. I also need to check the schedule for available dates."
+      },
+      {
+        "id": 10,
+        "title": "Vacation Plan",
+        "passage": "Next month, I'm going on a weekend ______. I want to relax and visit some tourist ______. I also plan to take many photos.",
+        "answers": ["getaway", "attractions"],
+        "script": "Next month, I'm going on a weekend getaway. I want to relax and visit some tourist attractions. I also plan to take many photos."
+      },
+      {
+        "id": 11,
+        "title": "Check-in Process",
+        "passage": "I arrived at the airport two hours early. I went to the check-in ______ and showed my passport. The agent printed my boarding pass and tagged my ______. Then I proceeded to the security check.",
+        "answers": ["counter", "luggage"],
+        "script": "I arrived at the airport two hours early. I went to the check-in counter and showed my passport. The agent printed my boarding pass and tagged my luggage. Then I proceeded to the security check."
+      },
+      {
+        "id": 12,
+        "title": "On the Plane",
+        "passage": "After boarding the plane, I found my ______ quickly. I placed my carry-on bag in the overhead ______. The flight attendant asked me to fasten my ______.",
+        "answers": ["seat", "bin", "seatbelt"],
+        "script": "After boarding the plane, I found my seat quickly. I placed my carry-on bag in the overhead bin. The flight attendant asked me to fasten my seatbelt. Then the plane was ready for takeoff."
+      },
+      {
+        "id": 13,
+        "title": "At Immigration",
+        "passage": "When I arrived, I went through ______ control. The officer asked me about the ______ of my visit. I showed my passport and answered his questions.",
+        "answers": ["immigration", "purpose"],
+        "script": "When I arrived, I went through immigration control. The officer asked me about the purpose of my visit. I showed my passport and answered his questions. Then he stamped my passport."
+      },
+      {
+        "id": 14,
+        "title": "Ordering Food",
+        "passage": "We sat down at the restaurant and looked at the ______. I decided to try a ______ chicken dish. My friend ordered a salad and a ______.",
+        "answers": ["menu", "grilled", "soup"],
+        "script": "We sat down at the restaurant and looked at the menu. I decided to try a grilled chicken dish. My friend ordered a salad and a soup. We also asked for some drinks."
+      },
+      {
+        "id": 15,
+        "title": "Restaurant Experience",
+        "passage": "The restaurant was very ______ that night. The service was a bit ______, but the food was amazing. In the end, we left a good ______.",
+        "answers": ["busy", "slow", "tip"],
+        "script": "The restaurant was very busy that night. The service was a bit slow, but the food was amazing. The waiter was polite and helpful. In the end, we left a good tip."
+      },
+      {
+        "id": 16,
+        "title": "Travel Plan",
+        "passage": "We planned our ______ carefully before leaving. We made a ______ of places we wanted to visit. We also ______ a hotel in advance.",
+        "answers": ["trip", "list", "booked"],
+        "script": "We planned our trip carefully before leaving. We made a list of places we wanted to visit. We also booked a hotel in advance. Everything was well organized."
+      },
+      {
+        "id": 17,
+        "title": "Giving Directions",
+        "passage": "The tourist asked me how to get to the ______. I told him to go ______ and then turn left. After that, he should walk for two ______.",
+        "answers": ["museum", "straight", "blocks"],
+        "script": "The tourist asked me how to get to the museum. I told him to go straight and then turn left. After that, he should walk for two blocks. The museum would be on his right."
+      },
+      {
+        "id": 18,
+        "title": "Work Meeting",
+        "passage": "We had an important ______ this morning. The manager discussed the project ______. We agreed to finish the work before the ______.",
+        "answers": ["meeting", "schedule", "deadline"],
+        "script": "We had an important meeting this morning. The manager discussed the project schedule. Everyone shared their ideas and updates. We agreed to finish the work before the deadline."
+      },
+      {
+        "id": 19,
+        "title": "Shopping Errands",
+        "passage": "I had many ______ to do today. First, I went to the ______ store to buy food. Then I visited the bank and the ______.",
+        "answers": ["errands", "grocery", "pharmacy"],
+        "script": "I had many errands to do today. First, I went to the grocery store to buy food. Then I visited the bank and the pharmacy. It was a very busy day."
+      },
+      {
+        "id": 20,
+        "title": "Weekend Trip",
+        "passage": "Last weekend, I went on a short ______. I stayed in a small ______ near the beach. I spent most of my time relaxing and ______.",
+        "answers": ["getaway", "hotel", "sightseeing"],
+        "script": "Last weekend, I went on a short getaway. I stayed in a small hotel near the beach. I spent most of my time relaxing and sightseeing. It was a wonderful experience."
+      }
+    ],
+    "multipleChoice": [
+      {
+        "id": 1,
+        "question": "“Catch up on past events” means:",
+        "options": ["Forget the past", "Talk about recent news", "Travel abroad", "Start a job"],
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "question": "“Acquaintance” means:",
+        "options": ["Best friend", "Family member", "Someone you don't know well", "Teacher"],
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "question": "“Promotion” means:",
+        "options": ["Losing a job", "Getting a higher position", "Leaving work", "Studying"],
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "question": "“To graduate” means:",
+        "options": ["Start school", "Finish studies", "Travel", "Work"],
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "question": "“To suggest” means:",
+        "options": ["Order", "Recommend", "Refuse", "Forget"],
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "question": "“Fill out a form” means:",
+        "options": ["Delete it", "Complete it", "Send it", "Print it"],
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "question": "“Pick up” (guests) means:",
+        "options": ["Drop them", "Meet and take them", "Call them", "Ignore them"],
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "question": "“Drop off” means:",
+        "options": ["Deliver something", "Buy something", "Cancel something", "Clean something"],
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "question": "“Reservation” means:",
+        "options": ["Payment", "Booking", "Travel", "Ticket"],
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "question": "“Itinerary” means:",
+        "options": ["Food list", "Travel plan", "Job list", "Price list"],
+        "answer": "B"
+      },
+      {
+        "id": 11,
+        "question": "“Carry-on luggage” is:",
+        "options": ["Big suitcase", "Small bag taken on plane", "Food bag", "Shopping bag"],
+        "answer": "B"
+      },
+      {
+        "id": 12,
+        "question": "“Boarding pass” is:",
+        "options": ["Passport", "Flight ticket document", "ID card", "Receipt"],
+        "answer": "B"
+      },
+      {
+        "id": 13,
+        "question": "“Baggage claim” is:",
+        "options": ["Where you check in", "Where you get your bags", "Where you eat", "Where you wait"],
+        "answer": "B"
+      },
+      {
+        "id": 14,
+        "question": "“Overhead bin” is:",
+        "options": ["Under seat", "Above your seat", "Outside plane", "In airport"],
+        "answer": "B"
+      },
+      {
+        "id": 15,
+        "question": "“Seatbelt” is used for:",
+        "options": ["Comfort", "Safety", "Eating", "Sleeping"],
+        "answer": "B"
+      },
+      {
+        "id": 16,
+        "question": "“Cuisine” means:",
+        "options": ["Clothes", "Food style", "Travel", "Music"],
+        "answer": "B"
+      },
+      {
+        "id": 17,
+        "question": "“Appetizer” is:",
+        "options": ["Main meal", "Dessert", "First small dish", "Drink"],
+        "answer": "C"
+      },
+      {
+        "id": 18,
+        "question": "“Main course” is:",
+        "options": ["Starter", "Dessert", "Main dish", "Drink"],
+        "answer": "C"
+      },
+      {
+        "id": 19,
+        "question": "“Dessert” is:",
+        "options": ["Soup", "Sweet dish", "Salad", "Meat"],
+        "answer": "B"
+      },
+      {
+        "id": 20,
+        "question": "“Grilled” means:",
+        "options": ["Cooked in water", "Cooked over fire", "Raw", "Fried"],
+        "answer": "B"
+      },
+      {
+        "id": 21,
+        "question": "“Fried” means:",
+        "options": ["Cooked in oil", "Boiled", "Raw", "Baked"],
+        "answer": "A"
+      },
+      {
+        "id": 22,
+        "question": "“Poached” means:",
+        "options": ["Cooked in water", "Burned", "Fried", "Raw"],
+        "answer": "A"
+      },
+      {
+        "id": 23,
+        "question": "“Stuffed” means:",
+        "options": ["Empty", "Filled inside", "Burned", "Cold"],
+        "answer": "B"
+      },
+      {
+        "id": 24,
+        "question": "“Overcooked” means:",
+        "options": ["Not cooked enough", "Cooked too much", "Raw", "Fresh"],
+        "answer": "B"
+      },
+      {
+        "id": 25,
+        "question": "“Undercooked” means:",
+        "options": ["Cooked too much", "Not cooked enough", "Burned", "Frozen"],
+        "answer": "B"
+      },
+      {
+        "id": 26,
+        "question": "“Overpriced” means:",
+        "options": ["Cheap", "Expensive", "Free", "Discounted"],
+        "answer": "B"
+      },
+      {
+        "id": 27,
+        "question": "“Underpriced” means:",
+        "options": ["Too expensive", "Cheap", "Free", "Normal"],
+        "answer": "B"
+      },
+      {
+        "id": 28,
+        "question": "“Tip” (restaurant) means:",
+        "options": ["Advice", "Extra money for service", "Food", "Ticket"],
+        "answer": "B"
+      },
+      {
+        "id": 29,
+        "question": "“To complain” means:",
+        "options": ["Praise", "Show dissatisfaction", "Eat", "Travel"],
+        "answer": "B"
+      },
+      {
+        "id": 30,
+        "question": "“To recommend” means:",
+        "options": ["Refuse", "Suggest", "Cancel", "Buy"],
+        "answer": "B"
+      },
+      {
+        "id": 31,
+        "question": "I ______ been to London.",
+        "options": ["have", "has", "am", "was"],
+        "answer": "A"
+      },
+      {
+        "id": 32,
+        "question": "She ______ worked here for 5 years.",
+        "options": ["have", "has", "is", "was"],
+        "answer": "B"
+      },
+      {
+        "id": 33,
+        "question": "We ______ not seen him yet.",
+        "options": ["have", "has", "are", "did"],
+        "answer": "A"
+      },
+      {
+        "id": 34,
+        "question": "______ you ever been to Egypt?",
+        "options": ["Do", "Did", "Have", "Are"],
+        "answer": "C"
+      },
+      {
+        "id": 35,
+        "question": "I have lived here ______ 2010.",
+        "options": ["for", "since", "ago", "in"],
+        "answer": "B"
+      },
+      {
+        "id": 36,
+        "question": "I have lived here ______ 10 years.",
+        "options": ["since", "for", "ago", "in"],
+        "answer": "B"
+      },
+      {
+        "id": 37,
+        "question": "She has ______ finished her work.",
+        "options": ["already", "yet", "never", "ago"],
+        "answer": "A"
+      },
+      {
+        "id": 38,
+        "question": "Have you eaten yet? → No, not ______.",
+        "options": ["already", "yet", "since", "for"],
+        "answer": "B"
+      },
+      {
+        "id": 39,
+        "question": "I suggest ______ early.",
+        "options": ["go", "going", "goes", "gone"],
+        "answer": "B"
+      },
+      {
+        "id": 40,
+        "question": "Someone ______ at the door.",
+        "options": ["is", "are", "were", "be"],
+        "answer": "A"
+      },
+      {
+        "id": 41,
+        "question": "Everyone ______ happy.",
+        "options": ["is", "are", "were", "be"],
+        "answer": "A"
+      },
+      {
+        "id": 42,
+        "question": "No one ______ here.",
+        "options": ["is", "are", "were", "be"],
+        "answer": "A"
+      },
+      {
+        "id": 43,
+        "question": "The cake ______ made yesterday.",
+        "options": ["is", "was", "were", "be"],
+        "answer": "B"
+      },
+      {
+        "id": 44,
+        "question": "The pyramids ______ built long ago.",
+        "options": ["is", "was", "were", "be"],
+        "answer": "C"
+      },
+      {
+        "id": 45,
+        "question": "This is ______ book. (my)",
+        "options": ["mine", "me", "I", "my"],
+        "answer": "A"
+      },
+      {
+        "id": 46,
+        "question": "This is ______ bag. (she)",
+        "options": ["her", "hers", "she", "him"],
+        "answer": "B"
+      },
+      {
+        "id": 47,
+        "question": "We ______ traveling tomorrow.",
+        "options": ["will", "will be", "are", "have"],
+        "answer": "B"
+      },
+      {
+        "id": 48,
+        "question": "He said that he ______ tired.",
+        "options": ["is", "was", "are", "be"],
+        "answer": "B"
+      },
+      {
+        "id": 49,
+        "question": "She asked where I ______.",
+        "options": ["live", "lived", "living", "lives"],
+        "answer": "B"
+      },
+      {
+        "id": 50,
+        "question": "The food was so hot ______ I couldn't eat it.",
+        "options": ["and", "that", "but", "so"],
+        "answer": "B"
+      },
+      {
+        "id": 51,
+        "question": "I have ______ seen that movie.",
+        "options": ["ever", "never", "yet", "since"],
+        "answer": "B"
+      },
+      {
+        "id": 52,
+        "question": "Have you ______ tried sushi?",
+        "options": ["ever", "never", "yet", "since"],
+        "answer": "A"
+      },
+      {
+        "id": 53,
+        "question": "She is one of the ______ students.",
+        "options": ["best", "better", "good", "well"],
+        "answer": "A"
+      },
+      {
+        "id": 54,
+        "question": "______ is calling you.",
+        "options": ["Someone", "Anyone", "No one", "Everyone"],
+        "answer": "A"
+      },
+      {
+        "id": 55,
+        "question": "I don't know ______.",
+        "options": ["someone", "anyone", "everyone", "no one"],
+        "answer": "B"
+      },
+      {
+        "id": 56,
+        "question": "______ is in the room.",
+        "options": ["No one", "Anyone", "Someone", "Everyone"],
+        "answer": "D"
+      },
+      {
+        "id": 57,
+        "question": "He told me ______ come early.",
+        "options": ["to", "for", "at", "in"],
+        "answer": "A"
+      },
+      {
+        "id": 58,
+        "question": "Don't text while ______.",
+        "options": ["drive", "driving", "drove", "drives"],
+        "answer": "B"
+      },
+      {
+        "id": 59,
+        "question": "She has just ______.",
+        "options": ["arrive", "arrived", "arriving", "arrives"],
+        "answer": "B"
+      },
+      {
+        "id": 60,
+        "question": "We will finish the work ______ Monday.",
+        "options": ["by", "in", "at", "on"],
+        "answer": "A"
+      },
+      {
+        "id": 61,
+        "question": "“To catch up” means:",
+        "options": ["Run fast", "Get updated on news", "Travel abroad", "Sleep"],
+        "answer": "B"
+      },
+      {
+        "id": 62,
+        "question": "“Degree” means:",
+        "options": ["Job", "Academic qualification", "Salary", "Travel plan"],
+        "answer": "B"
+      },
+      {
+        "id": 63,
+        "question": "“Field” (work field) means:",
+        "options": ["Farm", "Area of work", "Building", "Office"],
+        "answer": "B"
+      },
+      {
+        "id": 64,
+        "question": "“Experience” means:",
+        "options": ["Money", "Knowledge from doing something", "Travel", "Study"],
+        "answer": "B"
+      },
+      {
+        "id": 65,
+        "question": "“Consultant” is a person who:",
+        "options": ["Teaches", "Gives professional advice", "Travels", "Buys things"],
+        "answer": "B"
+      },
+      {
+        "id": 66,
+        "question": "“Applicant” means:",
+        "options": ["Boss", "Person applying for a job", "Manager", "Worker"],
+        "answer": "B"
+      },
+      {
+        "id": 67,
+        "question": "“Interview” is:",
+        "options": ["Meeting to get a job", "Travel", "Study", "Shopping"],
+        "answer": "A"
+      },
+      {
+        "id": 68,
+        "question": "“Currently” means:",
+        "options": ["In the past", "Now", "Tomorrow", "Always"],
+        "answer": "B"
+      },
+      {
+        "id": 69,
+        "question": "“Until” means:",
+        "options": ["Before", "After", "Up to a certain time", "Never"],
+        "answer": "C"
+      },
+      {
+        "id": 70,
+        "question": "“Reunion” means:",
+        "options": ["New meeting", "Meeting again after long time", "Interview", "Party"],
+        "answer": "B"
+      },
+      {
+        "id": 71,
+        "question": "“Colleague” means:",
+        "options": ["Family member", "Friend", "Person you work with", "Neighbor"],
+        "answer": "C"
+      },
+      {
+        "id": 72,
+        "question": "“Errands” means:",
+        "options": ["Big projects", "Small daily tasks", "Meetings", "Trips"],
+        "answer": "B"
+      },
+      {
+        "id": 73,
+        "question": "“Chores” means:",
+        "options": ["Fun activities", "Housework tasks", "Travel plans", "Meetings"],
+        "answer": "B"
+      },
+      {
+        "id": 74,
+        "question": "“Grocery store” is a place where you:",
+        "options": ["Buy clothes", "Buy food", "Work", "Travel"],
+        "answer": "B"
+      },
+      {
+        "id": 75,
+        "question": "“SUV” is a type of:",
+        "options": ["Food", "House", "Car", "Job"],
+        "answer": "C"
+      },
+      {
+        "id": 76,
+        "question": "“Traffic conditions” refer to:",
+        "options": ["Weather", "Road situation", "Job status", "Food quality"],
+        "answer": "B"
+      },
+      {
+        "id": 77,
+        "question": "“Car rental” means:",
+        "options": ["Buying a car", "Borrowing a car for money", "Selling a car", "Driving a car"],
+        "answer": "B"
+      },
+      {
+        "id": 78,
+        "question": "“Deadline” means:",
+        "options": ["Start time", "Final time", "Break time", "Free time"],
+        "answer": "B"
+      },
+      {
+        "id": 79,
+        "question": "“Budget” means:",
+        "options": ["Time plan", "Money plan", "Travel plan", "Work plan"],
+        "answer": "B"
+      },
+      {
+        "id": 80,
+        "question": "“Status report” means:",
+        "options": ["Travel ticket", "Update about progress", "Food order", "Meeting"],
+        "answer": "B"
+      },
+      {
+        "id": 81,
+        "question": "“Performance” means:",
+        "options": ["Job", "Show or event", "Travel", "Meeting"],
+        "answer": "B"
+      },
+      {
+        "id": 82,
+        "question": "“Entertainment” means:",
+        "options": ["Work", "Fun activities", "Study", "Travel"],
+        "answer": "B"
+      },
+      {
+        "id": 83,
+        "question": "“Ticket” means:",
+        "options": ["Money", "Entry pass", "Food", "Job"],
+        "answer": "B"
+      },
+      {
+        "id": 84,
+        "question": "“Gate” (airport) means:",
+        "options": ["Door at home", "Boarding area", "Restaurant", "Office"],
+        "answer": "B"
+      },
+      {
+        "id": 85,
+        "question": "“Carousel” (airport) is where:",
+        "options": ["You check in", "You get luggage", "You eat", "You sit"],
+        "answer": "B"
+      },
+      {
+        "id": 86,
+        "question": "“Immigration officer” is:",
+        "options": ["Pilot", "Airport security staff", "Chef", "Driver"],
+        "answer": "B"
+      },
+      {
+        "id": 87,
+        "question": "“Purpose of visit” means:",
+        "options": ["Why you travel", "Where you go", "What you eat", "Who you meet"],
+        "answer": "A"
+      },
+      {
+        "id": 88,
+        "question": "“Declare” (airport) means:",
+        "options": ["Hide something", "Show and report items", "Buy something", "Carry something"],
+        "answer": "B"
+      },
+      {
+        "id": 89,
+        "question": "“Take off” (plane) means:",
+        "options": ["Land", "Start flying", "Stop", "Wait"],
+        "answer": "B"
+      },
+      {
+        "id": 90,
+        "question": "“Land” (plane) means:",
+        "options": ["Start flying", "Arrive on ground", "Travel", "Stop engine"],
+        "answer": "B"
+      }
+    ]
+  }
+}
