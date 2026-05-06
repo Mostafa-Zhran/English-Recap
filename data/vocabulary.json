@@ -5,6 +5,21 @@
       "definition": "A person you work with at the same job or workplace",
       "example": "My co-worker helped me finish the project on time."
     },
+  {
+    "word": "brochures",
+    "definition": "Small booklets or papers with information about places, products, or services",
+    "example": "The hotel gave us brochures about local tourist attractions."
+  },
+  {
+    "word": "concierge",
+    "definition": "A hotel employee who helps guests with services, information, and arrangements",
+    "example": "The concierge helped us book a restaurant and find a taxi."
+  },
+  {
+    "word": "sightseeing",
+    "definition": "Visiting and looking at places of interest, especially as a tourist",
+    "example": "We spent the whole day sightseeing in the city."
+  },
     {
       "word": "overwhelming",
       "definition": "Very strong or intense, making you feel unable to handle it",
@@ -212,3 +227,4 @@
     }
   ]
 }
+
