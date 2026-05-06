@@ -174,7 +174,7 @@ function checkMCQAnswer(questionId, selectedValue) {
     // Correct answer
     selectedOption.parentElement.classList.add('correct');
     if (feedbackElement) {
-      feedbackElement.innerHTML = '<span class="feedback-correct">✅ Correct! Well done!</span>';
+      feedbackElement.innerHTML = '<span class="feedback-correct">Correct! Well done!</span>';
       feedbackElement.style.display = 'block';
     }
     showToast('✅ Correct!', 'success');
@@ -189,7 +189,7 @@ function checkMCQAnswer(questionId, selectedValue) {
     }
     
     if (feedbackElement) {
-      feedbackElement.innerHTML = `<span class="feedback-incorrect">❌ Incorrect! Correct answer: ${question.answer}</span>`;
+      feedbackElement.innerHTML = `<span class="feedback-incorrect">Incorrect! Correct answer: ${question.answer}</span>`;
       feedbackElement.style.display = 'block';
     }
     showToast('❌ Incorrect!', 'error');
